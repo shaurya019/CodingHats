@@ -1,0 +1,35 @@
+
+.row{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dsa-blocks {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .quaters {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(28, 165, 73, 0.8);
+    box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+    border-radius: 5px;
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #57CC99;
+  }
+  .quaters h2 p{
+      font-size: 33px;
+      color:#F7F6F2;
+      font-weight: 800;
+  }
+  .Dsa-head h2{
+    text-align: center;
+    /* margin-top: 35px; */
+    padding-top: 35px;
+    /* margin-bottom: 25px; */
+    padding-bottom: 35px;
+    font-size: 40px;
+  }

@@ -2,6 +2,8 @@ import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import Dsa from "./pages/dsa/Dsa";
+import Questions from "./pages/questions/Questions";
 import Contests from "./pages/contests/Contests";
 import Roadmap from "./pages/roadmaps/Roadmap";
 function App() {
@@ -15,11 +17,17 @@ function App() {
             <Route path="/" exact>
               <Contests />
             </Route>
-            <Route path="/contests">
-              <Contests />
+            <Route path="/dsa">
+              <Dsa/>
             </Route>
             <Route path="/roadmaps">
               <Roadmap />
+            </Route>
+            <Route path="/questions">
+              <Questions />
+            </Route>
+            <Route path="/contests">
+              <Contests />
             </Route>
           </Switch>
         </div>

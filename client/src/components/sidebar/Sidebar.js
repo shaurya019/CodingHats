@@ -26,20 +26,24 @@ function Sidebar() {
               <Dashboard className="sidebarListIcon" />
               Dashboard
             </li>
+            <Link to="/dsa">
             <li className="sidebarListItem">
               <SpeakerNotes className="sidebarListIcon" />
               DSA Revision
             </li>
+            </Link>
             <Link to="/roadmaps">
               <li className="sidebarListItem">
                 <Map className="sidebarListIcon" />
                 Roadmaps
               </li>
             </Link>
+            <Link to="/questions">
             <li className="sidebarListItem">
               <QuestionAnswer className="sidebarListIcon" />
               Questions
             </li>
+            </Link>
             <li className="sidebarListItem">
               <Attachment className="sidebarListIcon" />
               Projects
