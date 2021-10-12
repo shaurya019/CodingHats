@@ -20,6 +20,96 @@
   background-color: #57cc99;
   cursor: pointer;
 }
+.quaters:nth-child(1){
+  background-color: #4994f7;
+}
+.quaters:nth-child(2){
+  background-color: #4994f7;
+}
+.quaters:nth-child(3){
+  background-color: #4994f7;
+}
+.quaters:nth-child(4){
+  background-color: #4994f7;
+}
+.quaters:nth-child(5){
+  background-color: #4994f7;
+}
+.quaters:nth-child(6){
+  background-color: #277ff6;
+}
+.quaters:nth-child(7){
+  background-color: #4994f7;
+}
+.quaters:nth-child(8){
+  background-color: #277ff6;
+}
+.quaters:nth-child(9){
+  background-color: #277ff6;
+}
+.quaters:nth-child(10){
+  background-color: #277ff6;
+}
+.quaters:nth-child(11){
+  background-color: #277ff6;
+}
+.quaters:nth-child(12){
+  background-color: #277ff6;
+}
+.quaters:nth-child(13){
+  background-color: #096cf0;
+}
+.quaters:nth-child(14){
+  background-color: #096cf0;
+}
+.quaters:nth-child(15){
+  background-color: #096cf0;
+}
+.quaters:nth-child(16){
+  background-color: #096cf0;
+}
+.quaters:nth-child(17){
+  background-color: #096cf0;
+}
+.quaters:nth-child(18){
+  background-color: #085cce;
+}
+.quaters:nth-child(19){
+  background-color: #096cf0;
+}
+.quaters:nth-child(20){
+  background-color: #085cce;
+}
+.quaters:nth-child(21){
+  background-color: #085cce;
+}
+.quaters:nth-child(22){
+  background-color: #085cce;
+}
+.quaters:nth-child(23){
+  background-color: #085cce;
+}
+.quaters:nth-child(24){
+  background-color: #085cce;
+}
+.quaters:nth-child(25){
+  background-color: #053d89;
+}
+.quaters:nth-child(26){
+  background-color: #053d89;
+}
+.quaters:nth-child(27){
+  background-color: #053d89;
+}
+.quaters:nth-child(28){
+  background-color: #053d89;
+}
+.quaters:nth-child(29){
+  background-color: #053d89;
+}
+.quaters:nth-child(30){
+  background-color: #053d89;
+}
 .quaters h2 p {
   font-size: 33px;
   color: #f7f6f2;
