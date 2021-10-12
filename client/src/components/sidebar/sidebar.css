@@ -2,6 +2,9 @@
   flex: 1;
   background-color: #343448;
   height: 100vh;
+  position: sticky;
+  left: 0;
+  top: 0;
 }
 .sidebarWrapper {
   padding: 20px;
