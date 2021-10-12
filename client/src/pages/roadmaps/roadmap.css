@@ -1,0 +1,54 @@
+hr {
+  width: 70%;
+  margin: auto;
+}
+.roadmap-head h2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+.roadmap-head p {
+  text-align: center;
+  padding-bottom: 14px;
+  color: #787a91;
+}
+.roadmap-main {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 35px;
+}
+.tech-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.techno{
+    border:2px solid red;
+    height: 200px;
+    width: 400px;
+    margin: 30px;
+    
+}
+.tech-box-1,.tech-box-2,.tech-box-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Intern-box{
+    border:2px solid red;
+    height: 200px;
+    width: 400px; 
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.Intern{
+    margin-bottom: 60px;
+}
+.Graphs-main-head h2{
+    padding-bottom: 15px;
+}
+.Graphs-para p{
+    font-size: 14px;
+    color: #787a91;
+}

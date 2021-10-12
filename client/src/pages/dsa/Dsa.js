@@ -1,7 +1,7 @@
 import React from "react";
 import "./dsa.css";
 
-class Feature extends React.Component {
+class dsa extends React.Component {
   render() {
     return (
       <div className="section-1">
@@ -512,4 +512,4 @@ class Feature extends React.Component {
   }
 }
 
-export default Feature;
+export default dsa;
