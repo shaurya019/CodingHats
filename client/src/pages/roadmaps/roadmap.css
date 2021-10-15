@@ -13,42 +13,70 @@ hr {
   padding-bottom: 14px;
   color: #787a91;
 }
+.roadmap-main-head h2 {
+  border: 2px solid #51087e;
+  width: 185px;
+  color: #ffff;
+  background-color: #51087e;
+  box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+  padding: 10px;
+  text-align: center;
+}
 .roadmap-main {
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 35px;
 }
-.tech-box{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
+.tech-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
-.techno{
-    border:2px solid red;
-    height: 200px;
-    width: 400px;
-    margin: 30px;
-    
+.techno {
+  border: 2px solid red;
+  height: 200px;
+  width: 400px;
+  margin: 30px;
 }
-.tech-box-1,.tech-box-2,.tech-box-3{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.tech-box-1,
+.tech-box-2,
+.tech-box-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.Intern-box{
-    border:2px solid red;
-    height: 200px;
-    width: 400px; 
-    margin-left: 30px;
-    margin-top: 30px;
+.Intern-box {
+  border: 2px solid red;
+  height: 200px;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
-.Intern{
-    margin-bottom: 60px;
+.Intern {
+  margin-bottom: 60px;
 }
-.Graphs-main-head h2{
-    padding-bottom: 15px;
+.Intern-main-head h2 {
+  width: 200px;
+  background-color: #ff7600;
+  color: white;
+  border-right: 2px solid #ff7600;
+  border-bottom: 2px solid #ff7600;
+  box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+  padding: 10px;
+  text-align: center;
 }
-.Graphs-para p{
-    font-size: 14px;
-    color: #787a91;
+.Graphs-main-head h2 {
+  width: 185px;
+  background-color: #125D98;
+  color: white;
+  border-right: 2px solid #125D98;
+  border-bottom: 2px solid #125D98;
+  box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+  padding: 10px;
+  text-align: center;
+}
+.Graphs-para p {
+  padding-top: 15px;
+  font-size: 14px;
+  color: #787a91;
 }

@@ -17,7 +17,7 @@ class Roadmap extends React.Component {
             <div className="roadmap-main">
               {/* Roadmaps  main heading */}
               <div className="roadmap-main-head">
-                <h2>Technologies</h2>
+                <h2>TECHNOLOGY</h2>
               </div>
               {/* tech-box   */}
               <div className="tech-box">
@@ -37,14 +37,14 @@ class Roadmap extends React.Component {
               <div className="Intern">
                 {/* Intern heading */}
               <div className="Intern-main-head">
-                <h2>Opportunities</h2>
+                <h2>OPPORTUNITIES</h2>
               </div>
               <div className="Intern-box"><h3>Want to know about Internships?</h3><a href="/#" target="_blank">Explore {'->'}</a></div>
               </div>
               <div className="Graphs">
                 {/* Graphs */}
               <div className="Graphs-main-head">
-                <h2>Trending</h2>
+                <h2>TRENDING</h2>
               </div>
               <div className="Graphs-para"><p>Checkout the trending graphs of different frameworks and technologies</p></div>
               </div>
