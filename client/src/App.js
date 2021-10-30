@@ -6,6 +6,7 @@ import Dsa from "./pages/dsa/Dsa";
 import Questions from "./pages/questions/Questions";
 import Contests from "./pages/contests/Contests";
 import Roadmap from "./pages/roadmaps/Roadmap";
+import Dashboard from "./pages/dashboard/Dashboard";
 function App() {
   return (
     <Router>
@@ -15,7 +16,7 @@ function App() {
           <Navbar />
           <Switch>
             <Route path="/" exact>
-              <Contests />
+              <Dashboard />
             </Route>
             <Route path="/dsa">
               <Dsa/>

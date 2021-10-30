@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./questions.css";
 export default class Questions extends Component {
   render() {
-    return <div className="section-1">
+    return <div className="section-3">
     <div className="container">
       <div className="row">
 
