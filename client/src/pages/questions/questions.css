@@ -1,3 +1,7 @@
+
+.Part-1{
+margin-bottom: 100px;
+}
 .question-main-head h2{
 font-size: 50px;
 font-weight: 800;
@@ -17,9 +21,9 @@ color: yellowgreen;
     margin-top: 20px;
     color: #6D8299;
 }
-.question-box{
+/* .question-box{
 
-}
+} */
 .question-box p{
    font-size: 20px;
    margin-bottom: 25px;
@@ -41,4 +45,43 @@ color: yellowgreen;
 }
 #link2{
     color: #6D8299;
+}
+.company-box-main{
+display: flex;
+flex-direction: column;
+}
+.company-box-p1{
+    display: flex;
+    flex-direction: row; 
+   
+}
+.company-box-p2{
+    display: flex;
+    flex-direction: row; 
+}
+.faang{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+   margin-right: auto;
+   margin-left: auto;
+}
+#comp1 img{
+    height: 132px;
+}
+#comp2 img{
+height: 135px;
+    width: 130px;
+}
+#comp3 img{
+    height: 131px;
+        width: 227px;
+}
+#comp4 img{
+    height: 155px;
+        width: 152px;
+}
+#comp5 img{
+    height: 155px;
+        width: 152px;
 }

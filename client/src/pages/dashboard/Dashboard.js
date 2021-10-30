@@ -38,15 +38,7 @@ class Dashboard extends React.Component {
               })}
           </div>
         </div>
-        <div className="blogs">
-          <div className="blogsHeading">Blogs</div>
-          <div className="blogsList">
-            <Blogs />
-            <Blogs />
-            <Blogs />
-            <Blogs />
-          </div>
-        </div>
+      {/* documentation */}
       </div>
     );
   }
