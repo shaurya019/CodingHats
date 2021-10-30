@@ -3,10 +3,11 @@ import "./technews.css";
 
 function Technews(props) {
   return (
-    <div
-      className="technewsContainer"
-      style={{ backgroundImage: `url(${props.urlToImage})` }}
-    >
+    <div className="technewsContainer">
+      <div
+        className="technewsContainerbg"
+        style={{ backgroundImage: `url(${props.urlToImage})` }}
+      ></div>
       <div className="technewstitle">
         <a href={props.url} target="_blank">
           {props.title}
