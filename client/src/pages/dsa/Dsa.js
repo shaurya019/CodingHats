@@ -1,7 +1,12 @@
 import React from "react";
+import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 import "./dsa.css";
 
 class dsa extends React.Component {
+  componentDidMount() {
+    const { SidebarDispatch } = this.props;
+    SidebarDispatch(changeSelect("dsa"));
+  }
   render() {
     return (
       <div className="section-1">
@@ -14,15 +19,7 @@ class dsa extends React.Component {
             {/* dsa blocks */}
             <div className="dsa-blocks">
               {/* dsa quaters it represents a single block*/}
-              
 
-
-
-
-
-
-
-              
               {/* quaters - 1  */}
               <div className="quaters">
                 <h2>
@@ -32,14 +29,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-              
               {/* quaters - 2  */}
               <div className="quaters">
                 <h2>
@@ -49,14 +38,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-              
               {/* quaters - 3  */}
               <div className="quaters">
                 <h2>
@@ -66,18 +47,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-
-
-
-
-              
               {/* quaters - 4  */}
               <div className="quaters">
                 <h2>
@@ -87,10 +56,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-              
               {/* quaters - 5  */}
               <div className="quaters">
                 <h2>
@@ -100,14 +65,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-              
               {/* quaters - 6  */}
               <div className="quaters">
                 <h2>
@@ -117,14 +74,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-              
               {/* quaters - 7  */}
               <div className="quaters">
                 <h2>
@@ -133,15 +82,7 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-              
 
-
-
-
-
-
-
-              
               {/* quaters - 8  */}
               <div className="quaters">
                 <h2>
@@ -151,14 +92,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-              
               {/* quaters - 9  */}
               <div className="quaters">
                 <h2>
@@ -167,15 +100,6 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-
-
-
-
-
-
-
-
-              
 
               {/* quaters - 10  */}
               <div className="quaters">
@@ -186,14 +110,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-              
               {/* quaters - 11  */}
               <div className="quaters">
                 <h2>
@@ -203,14 +119,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-              
               {/* quaters - 12 */}
               <div className="quaters">
                 <h2>
@@ -219,15 +127,7 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-              
 
-
-
-
-
-
-
-              
               {/* quaters - 13 */}
               <div className="quaters">
                 <h2>
@@ -236,15 +136,6 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-              
-
-
-
-
-
-
-
-              
 
               {/* quaters - 14  */}
               <div className="quaters">
@@ -255,14 +146,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-              
               {/* quaters - 15  */}
               <div className="quaters">
                 <h2>
@@ -272,14 +155,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
-              
               {/* quaters - 16  */}
               <div className="quaters">
                 <h2>
@@ -288,10 +163,6 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-
-
-
-
 
               {/* quaters - 17  */}
               <div className="quaters">
@@ -302,11 +173,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
               {/* quaters - 18  */}
               <div className="quaters">
                 <h2>
@@ -315,12 +181,6 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-
-
-
-
-
-
 
               {/* quaters - 19  */}
               <div className="quaters">
@@ -331,12 +191,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
               {/* quaters - 20  */}
               <div className="quaters">
                 <h2>
@@ -345,12 +199,6 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-
-
-
-
-
-
 
               {/* quaters - 21  */}
               <div className="quaters">
@@ -361,13 +209,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
               {/* quaters - 22  */}
               <div className="quaters">
                 <h2>
@@ -376,13 +217,6 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-
-
-
-
-
-
-
 
               {/* quaters - 23  */}
               <div className="quaters">
@@ -393,13 +227,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
               {/* quaters - 24  */}
               <div className="quaters">
                 <h2>
@@ -408,13 +235,6 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-
-
-
-
-
-
-
 
               {/* quaters - 25  */}
               <div className="quaters">
@@ -425,13 +245,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
               {/* quaters - 26  */}
               <div className="quaters">
                 <h2>
@@ -440,13 +253,6 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-
-
-
-
-
-
-
 
               {/* quaters - 27  */}
               <div className="quaters">
@@ -457,13 +263,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
               {/* quaters - 28  */}
               <div className="quaters">
                 <h2>
@@ -473,13 +272,6 @@ class dsa extends React.Component {
                 <div className="dsa-day"></div>
               </div>
 
-
-
-
-
-
-
-
               {/* quaters - 29  */}
               <div className="quaters">
                 <h2>
@@ -488,13 +280,6 @@ class dsa extends React.Component {
                 {/* dsa-day it will have links */}
                 <div className="dsa-day"></div>
               </div>
-
-
-
-
-
-
-
 
               {/* quaters - 30  */}
               <div className="quaters">

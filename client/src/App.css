@@ -4,3 +4,6 @@
 .container {
   flex: 5;
 }
+.link {
+  text-decoration: none;
+}

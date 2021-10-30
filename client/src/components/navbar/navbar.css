@@ -1,6 +1,8 @@
 .navbar {
   height: 50px;
   background-color: aliceblue;
+  position: sticky;
+  top: 0;
 }
 .navbarList {
   height: 100%;

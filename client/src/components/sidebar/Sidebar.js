@@ -8,8 +8,12 @@ import {
   Attachment,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
+import { SidebarContext } from "../../context/sidebarContext/SidebarContext";
+import { useContext } from "react";
 
 function Sidebar() {
+  const { page, dispatch } = useContext(SidebarContext);
+  console.log(page);
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -22,37 +26,83 @@ function Sidebar() {
         <div className="sidebarMenu">
           <h4>CODING HATS</h4>
           <ul className="sidebarList">
-            <li className="sidebarListItem select">
-              <Dashboard className="sidebarListIcon" />
-              Dashboard
-            </li>
-            <Link to="/dsa">
-            <li className="sidebarListItem">
-              <SpeakerNotes className="sidebarListIcon" />
-              DSA Revision
-            </li>
+            <Link to="/" className="link">
+              {page === "dashboard" ? (
+                <li className="sidebarListItem select">
+                  <Dashboard className="sidebarListIcon" />
+                  Dashboard
+                </li>
+              ) : (
+                <li className="sidebarListItem">
+                  <Dashboard className="sidebarListIcon" />
+                  Dashboard
+                </li>
+              )}
             </Link>
-            <Link to="/roadmaps">
-              <li className="sidebarListItem">
-                <Map className="sidebarListIcon" />
-                Roadmaps
-              </li>
+            <Link to="/dsa" className="link">
+              {page === "dsa" ? (
+                <li className="sidebarListItem select">
+                  <SpeakerNotes className="sidebarListIcon" />
+                  DSA Revision
+                </li>
+              ) : (
+                <li className="sidebarListItem">
+                  <SpeakerNotes className="sidebarListIcon" />
+                  DSA Revision
+                </li>
+              )}
             </Link>
-            <Link to="/questions">
-            <li className="sidebarListItem">
-              <QuestionAnswer className="sidebarListIcon" />
-              Questions
-            </li>
+            <Link to="/roadmaps" className="link">
+              {page === "roadmaps" ? (
+                <li className="sidebarListItem select">
+                  <Map className="sidebarListIcon" />
+                  Roadmaps
+                </li>
+              ) : (
+                <li className="sidebarListItem">
+                  <Map className="sidebarListIcon" />
+                  Roadmaps
+                </li>
+              )}
             </Link>
-            <li className="sidebarListItem">
-              <Attachment className="sidebarListIcon" />
-              Projects
-            </li>
-            <Link to="contests">
-              <li className="sidebarListItem">
-                <ArrowDropDown className="sidebarListIcon" />
-                Contests
-              </li>
+            <Link to="/questions" className="link">
+              {page === "questions" ? (
+                <li className="sidebarListItem select">
+                  <QuestionAnswer className="sidebarListIcon" />
+                  Questions
+                </li>
+              ) : (
+                <li className="sidebarListItem">
+                  <QuestionAnswer className="sidebarListIcon" />
+                  Questions
+                </li>
+              )}
+            </Link>
+            <Link to="projects" className="link">
+              {page === "projects" ? (
+                <li className="sidebarListItem select">
+                  <Attachment className="sidebarListIcon" />
+                  Projects
+                </li>
+              ) : (
+                <li className="sidebarListItem">
+                  <Attachment className="sidebarListIcon" />
+                  Projects
+                </li>
+              )}
+            </Link>
+            <Link to="contests" className="link">
+              {page === "contests" ? (
+                <li className="sidebarListItem select">
+                  <ArrowDropDown className="sidebarListIcon" />
+                  Contests
+                </li>
+              ) : (
+                <li className="sidebarListItem">
+                  <ArrowDropDown className="sidebarListIcon" />
+                  Contests
+                </li>
+              )}
             </Link>
           </ul>
         </div>

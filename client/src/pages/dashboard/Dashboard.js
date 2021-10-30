@@ -1,19 +1,16 @@
 import React from "react";
 import "./dashboard.css";
+import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 
 class Dashboard extends React.Component {
-    render() {
-      return (
-        <div className="section-4">
-          <div className="container">
-            <div className="row">
-
-            </div>
-          </div>
-        </div>
-      );
-    }
+  componentDidMount() {
+    const { SidebarDispatch } = this.props;
+    SidebarDispatch(changeSelect("dashboard"));
   }
-  
-  export default Dashboard;
-  
+
+  render() {
+    return <div className="dashboard">Dashboard</div>;
+  }
+}
+
+export default Dashboard;
