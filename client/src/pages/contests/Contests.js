@@ -6,7 +6,6 @@ import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 function Contests() {
   const { page, dispatch } = useContext(SidebarContext);
 
-  console.log("dispatch", page);
   useEffect(() => {
     dispatch(changeSelect("contests"));
   }, [dispatch]);
