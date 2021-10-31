@@ -33,12 +33,13 @@ hr {
   margin-bottom: 50px;
 }
 .techno {
-  background: url(https://www.reachfirst.com/wp-content/uploads/2018/08/Web-Development.jpg)
-    no-repeat center/cover;
-  border: 2px solid red;
   height: 200px;
   width: 400px;
   margin: 30px;
+}
+.techno a {
+  font-weight: 600;
+  text-decoration: none;
 }
 .tech-box-1,
 .tech-box-2,
@@ -47,8 +48,44 @@ hr {
   flex-direction: row;
   justify-content: space-between;
 }
+#tech-box-1 {
+  background: url(https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)
+    no-repeat center/cover;
+}
+#tech-box-1 h3 {
+  color: #125d98;
+}
+#tech-box-2 {
+  background: url(https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80)
+    no-repeat center/cover;
+}
+#tech-box-2 h3 {
+  color: #ffff;
+}
+#tech-box-3 {
+  background: url(https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+    no-repeat center/cover;
+}
+#tech-box-3 h3 {
+  color: #ffff;
+}
+#tech-box-4 {
+  background: url(https://www.30dayscoding.com/static/media/tutorial-07.4eaa3c9e.jpg)
+    no-repeat center/cover;
+}
+#tech-box-4 h3 {
+  color: #ffff;
+}
+#tech-box-5 {
+  background: url(https://www.30dayscoding.com/static/media/tutorial-05.de48f52d.jpg)
+    no-repeat center/cover;
+}
+#tech-box-5 h3 {
+  color: #ffff;
+}
 .Intern-box {
-  border: 2px solid red;
+  background: url(https://images.unsplash.com/photo-1576595580361-90a855b84b20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80)
+    no-repeat center/cover;
   height: 200px;
   width: 400px;
   margin-left: 30px;
