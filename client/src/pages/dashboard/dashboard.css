@@ -50,25 +50,24 @@ mark {
 }
 .blogs-quater {
   display: flex;
+  flex-direction: row;
+  margin-top: 19px;
+}
+#bg-quater-1 {
+  display: flex;
   flex-direction: column;
 }
-.blogs-quater-box {
+#bg-quater-2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin-top: 5px;
 }
-.blogs-box-1 {
-  border: 2px solid red;
-  height: 220px;
-  width: 300px;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto;
+#bg-quater-3 {
+  display: flex;
+  flex-direction: column;
 }
-.blogs-box-2 {
-  border: 2px solid rebeccapurple;
-  height: 220px;
-  width: 300px;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto;
+#bg-quater-4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
 }

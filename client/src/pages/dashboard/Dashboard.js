@@ -2,7 +2,6 @@ import React from "react";
 import "./dashboard.css";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 import Technews from "../../components/technews/Technews";
-import Blogs from "../../components/blogs/Blogs";
 
 class Dashboard extends React.Component {
   constructor() {
@@ -52,7 +51,7 @@ class Dashboard extends React.Component {
                 important topics. Create your own platform for blogging Coding
                 Hats is a powerful website for new-creators to publish, share,
                 and grow there work around their content.It comes with modern
-                tools to build a website, publish content, get knowledge. 
+                tools to build a website, publish content, get knowledge.
                 <br></br>
                 <mark>
                   Improve your resume, apply for internships/jobs the right way
@@ -61,18 +60,76 @@ class Dashboard extends React.Component {
               </p>
             </div>
           </div>
-          {/* <div className="blogs-quater">
-            <div className="blogs-quater-box">
-              <div className="blogs-box-1" id="blog-1"></div>
-              <div className="blogs-box-1" id="blog-2"></div>
-              <div className="blogs-box-1" id="blog-3"></div>
+          <div className="blogs-quater">
+            <div className="blogs-img" id="bg-quater-1">
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
             </div>
-            <div className="blogs-quater-box">
-              <div className="blogs-box-2 h-full " id="blog-4"></div>
-              <div className="blogs-box-2 h-full " id="blog-5"></div>
-              <div className="blogs-box-2 h-full " id="blog-6"></div>
+            <div className="blogs-img" id="bg-quater-2">
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
             </div>
-          </div> */}
+            <div className="blogs-img" id="bg-quater-3">
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+            </div>
+            <div className="blogs-img" id="bg-quater-4">
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+              <a href="" target="_blank">
+                <img src="" alt=""></img>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     );
