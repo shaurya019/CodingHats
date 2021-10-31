@@ -37,10 +37,7 @@ hr {
   width: 400px;
   margin: 30px;
 }
-.techno a {
-  font-weight: 600;
-  text-decoration: none;
-}
+
 .tech-box-1,
 .tech-box-2,
 .tech-box-3 {
@@ -80,7 +77,8 @@ hr {
   background: url(https://www.30dayscoding.com/static/media/tutorial-05.de48f52d.jpg)
     no-repeat center/cover;
 }
-#tech-box-5 h3 {
+#tech-box-5 h3,
+p {
   color: #ffff;
 }
 .Intern-box {

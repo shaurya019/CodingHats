@@ -28,21 +28,21 @@ class Roadmap extends React.Component {
                 <div className="tech-box-1">
                   <div className="techno" id="tech-box-1">
                     <h3>Web development</h3>
-                    <a href="/#">Explore {"->"}</a>
+                    
                   </div>
                   <div className="techno" id="tech-box-2">
                     <h3>Android development</h3>
-                    <a href="/#">Explore {"->"}</a>
+                 
                   </div>
                 </div>
                 <div className="tech-box-2">
                   <div className="techno" id="tech-box-3">
                     <h3>Machine Learning</h3>
-                    <a href="/#">Explore {"->"}</a>
+                    
                   </div>
                   <div className="techno" id="tech-box-4">
                     <h3>Back-End</h3>
-                    <a href="/#">Explore {"->"}</a>
+                    
                   </div>
                 </div>
                 <div className="tech-box-3">
@@ -60,9 +60,6 @@ class Roadmap extends React.Component {
                 </div>
                 <div className="Intern-box">
                   <h3>Want to know about Internships?</h3>
-                  <a href="/#" target="_blank">
-                    Explore {"->"}
-                  </a>
                 </div>
               </div>
               <div className="Graphs">
