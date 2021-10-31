@@ -21,5 +21,54 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-
+.blogs {
+  background-color: black;
+  margin-top: 100px;
+}
+.blog {
+  width: 620px;
+  padding-top: 70px;
+  margin-left: 40px;
+}
+.blogs-head h2 {
+  color: #d1ff19;
+  padding-bottom: 25px;
+  font-size: 25px;
+  margin-top: 25px;
+}
+mark {
+  color: #ffff;
+  background-color: black;
+}
+.blogs-para p {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.25em;
+}
+.blogs-quater {
+  display: flex;
+  flex-direction: column;
+}
+.blogs-quater-box {
+  display: flex;
+  flex-direction: row;
+}
+.blogs-box-1 {
+  border: 2px solid red;
+  height: 220px;
+  width: 300px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blogs-box-2 {
+  border: 2px solid rebeccapurple;
+  height: 220px;
+  width: 300px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

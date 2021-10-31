@@ -38,7 +38,42 @@ class Dashboard extends React.Component {
               })}
           </div>
         </div>
-      {/* documentation */}
+        {/* documentation */}
+        <div></div>
+        {/* blogs */}
+        <div className="blogs">
+          <div className="blog">
+            <div className="blogs-head">
+              <h2>Blogs</h2>
+            </div>
+            <div className="blogs-para">
+              <p>
+                <mark>Here are some blogs</mark> to get you going on some
+                important topics. Create your own platform for blogging Coding
+                Hats is a powerful website for new-creators to publish, share,
+                and grow there work around their content.It comes with modern
+                tools to build a website, publish content, get knowledge. 
+                <br></br>
+                <mark>
+                  Improve your resume, apply for internships/jobs the right way
+                </mark>
+                , learn more about cold emails, and much more! Keep going.
+              </p>
+            </div>
+          </div>
+          {/* <div className="blogs-quater">
+            <div className="blogs-quater-box">
+              <div className="blogs-box-1" id="blog-1"></div>
+              <div className="blogs-box-1" id="blog-2"></div>
+              <div className="blogs-box-1" id="blog-3"></div>
+            </div>
+            <div className="blogs-quater-box">
+              <div className="blogs-box-2 h-full " id="blog-4"></div>
+              <div className="blogs-box-2 h-full " id="blog-5"></div>
+              <div className="blogs-box-2 h-full " id="blog-6"></div>
+            </div>
+          </div> */}
+        </div>
       </div>
     );
   }
