@@ -21,9 +21,22 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.doc-mat {
+  display: flex;
+  flex-direction: row;
+}
+.doc-row {
+  display: flex;
+  flex-direction: column;
+}
+.doc-img a img {
+  height: 50px;
+  width: 50px;
+}
 .blogs {
   background-color: black;
   margin-top: 100px;
+  height: 930px;
 }
 .blog {
   width: 620px;
@@ -51,7 +64,16 @@ mark {
 .blogs-quater {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
   margin-top: 19px;
+}
+.blogs-quater-box {
+  border: 2px solid #ff2547;
+  padding: 10px;
+  height: 180px;
+  width: 200px;
+  margin-bottom: 40px;
 }
 #bg-quater-1 {
   display: flex;
@@ -60,7 +82,7 @@ mark {
 #bg-quater-2 {
   display: flex;
   flex-direction: column;
-  margin-top: 5px;
+  margin-top: 40px;
 }
 #bg-quater-3 {
   display: flex;
@@ -69,5 +91,5 @@ mark {
 #bg-quater-4 {
   display: flex;
   flex-direction: column;
-  margin-top: 2px;
+  margin-top: 40px;
 }
