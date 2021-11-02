@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./questions.css";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
+import Datagrid from "../../components/datagrid/Datagrid";
 export default class Questions extends Component {
   componentDidMount() {
     const { SidebarDispatch } = this.props;
@@ -32,7 +33,7 @@ export default class Questions extends Component {
                 </div>
               </div>
             </div>
-
+            <Datagrid />
             <div className="Part-2">
               <div className="company-box-main">
                 <div className="company-box-p1">

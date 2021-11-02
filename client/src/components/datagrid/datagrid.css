@@ -1,0 +1,9 @@
+/* .MuiDataGrid-row:nth-child(even) {
+  background-color: aliceblue;
+}
+.MuiDataGrid-row:nth-child(odd) {
+  background-color: pink;
+}
+.MuiDataGrid-row:nth-child(2n + 1) {
+  background-color: brown;
+} */

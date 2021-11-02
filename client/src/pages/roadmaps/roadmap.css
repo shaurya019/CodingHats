@@ -117,3 +117,8 @@ p {
   font-size: 14px;
   color: #787a91;
 }
+
+.graphBarChart {
+  margin: 30px auto;
+  /* margin-left: 20px; */
+}

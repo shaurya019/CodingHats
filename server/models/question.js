@@ -2,13 +2,6 @@ const mongoose = require("mongoose");
 
 const questionSchema = mongoose.Schema(
   {
-    day: {
-      type: Number,
-    },
-    desc: {
-      type: String,
-      required: true,
-    },
     title: {
       type: String,
       required: true,
@@ -18,6 +11,14 @@ const questionSchema = mongoose.Schema(
       required: true,
     },
     solution: {
+      type: String,
+      required: true,
+    },
+    company: {
+      type: String,
+      required: true,
+    },
+    difficulty: {
       type: String,
       required: true,
     },

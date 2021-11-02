@@ -26,14 +26,25 @@ class Dashboard extends React.Component {
   }
 
   render() {
+    const colors = [
+      "#ff247d",
+      "#88FFF7",
+      "FF4848",
+      "#77D970",
+      "#7C83FD",
+      "#34BE82",
+      "#F2F013",
+      "2F86A6",
+    ];
+
     return (
       <div className="dashboard">
         <div className="technews">
           <div className="technewsHeading">Latest in Tech</div>
           <div className="technewsList">
             {this.state.articles &&
-              this.state.articles.map((element) => {
-                return <Technews {...element} />;
+              this.state.articles.map((element, index) => {
+                return <Technews {...element} color={colors[index]} />;
               })}
           </div>
         </div>
