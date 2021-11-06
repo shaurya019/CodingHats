@@ -36,7 +36,7 @@
 .blogs {
   background-color: black;
   margin-top: 100px;
-  height: 930px;
+  height: 1050px;
 }
 .blog {
   width: 620px;
@@ -69,7 +69,7 @@ mark {
   margin-top: 19px;
 }
 .blogs-quater-box {
-  border: 2px solid #ff2547;
+  border: 2px solid;
   padding: 10px;
   height: 180px;
   width: 200px;
@@ -82,7 +82,7 @@ mark {
 #bg-quater-2 {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 #bg-quater-3 {
   display: flex;
@@ -92,4 +92,47 @@ mark {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
+}
+.blog-box-2 {
+  margin-left: 25px;
+}
+
+#dash-blog-box-1 {
+  background-color: #e9e50c;
+  border: #e9e50c;
+}
+#dash-blog-box-2 {
+  background-color: #2fdd92;
+  border: #2fdd92;
+}
+
+#dash-blog-box-4 {
+  background-color: #ff247d;
+  border: #ff247d;
+}
+#dash-blog-box-5 {
+  background-color: #7dedff;
+  border: #7dedff;
+}
+
+#dash-blog-box-7 {
+  background-color: rebeccapurple;
+  border: rebeccapurple;
+}
+#dash-blog-box-8 {
+  background-color: #d1ff19;
+  border: #d1ff19;
+}
+
+#dash-blog-box-10 {
+  background-color: #FF7878;
+  border: #FF7878;
+}
+#dash-blog-box-11 {
+  background-color: #2f86a6;
+  border: #2f86a6;
+}
+#dash-blog-box-12 {
+  background-color: #2fdd92;
+  border: #2fdd92;
 }

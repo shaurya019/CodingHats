@@ -189,24 +189,23 @@ class Dashboard extends React.Component {
           </div>
           <div className="blogs-quater">
             <div className="blogs-img" id="bg-quater-1">
-              <a className="blogs-quater-box" href="" target="_blank"></a>
-              <a className="blogs-quater-box" href="" target="_blank"></a>
-              <a className="blogs-quater-box" href="" target="_blank"></a>
+              <a className="blogs-quater-box" id="dash-blog-box-1" href="" target="_blank"></a>
+              <a className="blogs-quater-box blog-box-2" id="dash-blog-box-2" href="" target="_blank"></a>
             </div>
             <div className="blogs-img" id="bg-quater-2">
-              <a className="blogs-quater-box" href="" target="_blank"></a>
-              <a className="blogs-quater-box" href="" target="_blank"></a>
-              <a className="blogs-quater-box" href="" target="_blank"></a>
+              <a className="blogs-quater-box" id="dash-blog-box-4" href="" target="_blank"></a>
+              <a className="blogs-quater-box blog-box-2" id="dash-blog-box-5" href="" target="_blank"></a>
+              
             </div>
             <div className="blogs-img" id="bg-quater-3">
-              <a className="blogs-quater-box" href="" target="_blank"></a>
-              <a className="blogs-quater-box" href="" target="_blank"></a>
-              <a className="blogs-quater-box" href="" target="_blank"></a>
+              <a className="blogs-quater-box" id="dash-blog-box-7" href="" target="_blank"></a>
+              <a className="blogs-quater-box blog-box-2" id="dash-blog-box-8" href="" target="_blank"></a>
+              
             </div>
             <div className="blogs-img" id="bg-quater-4">
-              <a className="blogs-quater-box" href="" target="_blank"></a>
-              <a className="blogs-quater-box" href="" target="_blank"></a>
-              <a className="blogs-quater-box" href="" target="_blank"></a>
+              <a className="blogs-quater-box" id="dash-blog-box-10" href="" target="_blank"></a>
+              <a className="blogs-quater-box blog-box-2" id="dash-blog-box-11" href="" target="_blank"></a>
+              
             </div>
           </div>
         </div>

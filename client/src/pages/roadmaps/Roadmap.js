@@ -1,6 +1,143 @@
 import React from "react";
 import "./roadmap.css";
+import {
+  ResponsiveContainer,
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Legend,
+  Tooltip,
+} from "recharts";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
+const data = [
+  {
+    name: "React",
+    percent: 53,
+    year: 2016,
+  },
+  {
+    name: "React",
+    percent: 62,
+    year: 2017,
+  },
+  {
+    name: "React",
+    percent: 72,
+    year: 2018,
+  },
+  {
+    name: "React",
+    percent: 80,
+    year: 2019,
+  },
+  {
+    name: "React",
+    percent: 80,
+    year: 2020,
+  },
+  {
+    name: "Angular",
+    percent: 20,
+    year: 2016,
+  },
+  {
+    name: "Angular",
+    percent: 28,
+    year: 2017,
+  },
+  {
+    name: "Angular",
+    percent: 58,
+    year: 2018,
+  },
+  {
+    name: "Angular",
+    percent: 58,
+    year: 2019,
+  },
+  {
+    name: "Angular",
+    percent: 56,
+    year: 2020,
+  },
+  {
+    name: "Ember",
+    percent: 14,
+    year: 2016,
+  },
+  {
+    name: "Ember",
+    percent: 22,
+    year: 2017,
+  },
+  {
+    name: "Ember",
+    percent: 32,
+    year: 2018,
+  },
+  {
+    name: "Ember",
+    percent: 46,
+    year: 2019,
+  },
+  {
+    name: "Ember",
+    percent: 49,
+    year: 2020,
+  },
+  {
+    name: "Vue js",
+    percent: 10,
+    year: 2016,
+  },
+  {
+    name: "Vue js",
+    percent: 22,
+    year: 2017,
+  },
+  {
+    name: "Vue js",
+    percent: 32,
+    year: 2018,
+  },
+  {
+    name: "Vue js",
+    percent: 46,
+    year: 2019,
+  },
+  {
+    name: "Vue js",
+    percent: 49,
+    year: 2020,
+  },
+  {
+    name: "Preact",
+    percent: 7,
+    year: 2018,
+  },
+  {
+    name: "Preact",
+    percent: 12,
+    year: 2019,
+  },
+  {
+    name: "Preact",
+    percent: 13,
+    year: 2020,
+  },
+  {
+    name: "Svelte",
+    percent: 8,
+    year: 2019,
+  },
+  {
+    name: "Svelte",
+    percent: 15,
+    year: 2020,
+  },
+];
 class Roadmap extends React.Component {
   componentDidMount() {
     const { SidebarDispatch } = this.props;
@@ -28,21 +165,17 @@ class Roadmap extends React.Component {
                 <div className="tech-box-1">
                   <div className="techno" id="tech-box-1">
                     <h3>Web development</h3>
-                    
                   </div>
                   <div className="techno" id="tech-box-2">
                     <h3>Android development</h3>
-                 
                   </div>
                 </div>
                 <div className="tech-box-2">
                   <div className="techno" id="tech-box-3">
                     <h3>Machine Learning</h3>
-                    
                   </div>
                   <div className="techno" id="tech-box-4">
                     <h3>Back-End</h3>
-                    
                   </div>
                 </div>
                 <div className="tech-box-3">
@@ -72,6 +205,22 @@ class Roadmap extends React.Component {
                     Checkout the trending graphs of different frameworks and
                     technologies
                   </p>
+                  <ResponsiveContainer width="100%" aspect={3}>
+                    <LineChart
+                      data={data}
+                      width={500}
+                      height={300}
+                      margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                    >
+                      <CartesianGrid />
+                      <XAxis dataKey="year" interval={"preserveStartEnd"} />
+                      <YAxis />
+                      <Tooltip />
+                      <legend />
+                      <Line dataKey="percent" stroke="red" />
+                      <Line dataKey="name" stroke="blue" />
+                    </LineChart>
+                  </ResponsiveContainer>
                 </div>
               </div>
             </div>
