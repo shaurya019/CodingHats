@@ -2,14 +2,26 @@ import { DataGrid } from "@material-ui/data-grid";
 import { Code, NoteAdd } from "@material-ui/icons";
 import { makeStyles, createStyles } from "@material-ui/core";
 import "./datagrid.css";
+import axios from "axios";
+import { useEffect } from "react";
 
 function Datagrid() {
+  let lists = [];
+
+  useEffect(() => {
+    const fetchQuestions = async () => {
+      const res = await axios.get("/question");
+      lists = res;
+    };
+
+    fetchQuestions();
+  }, []);
   const columns = [
-    {
-      field: "number",
-      headerName: "S NO.",
-      width: 100,
-    },
+    // {
+    //   field: "number",
+    //   headerName: "S NO.",
+    //   width: 100,
+    // },
     {
       field: "title",
       headerName: "Title",
@@ -42,13 +54,13 @@ function Datagrid() {
       },
     },
     {
-      field: "solve",
+      field: "link",
       headerName: "Solve Here",
       width: 150,
       renderCell: (params) => {
         return (
           <>
-            <a href={params.row.solve} target="_blank">
+            <a href={params.row.link} target="_blank">
               <Code />
             </a>
           </>
@@ -96,71 +108,71 @@ function Datagrid() {
   );
 
   const classes = useStyles();
-  const lists = [
-    {
-      title: "Median of two sorted Arrays",
-      company: "Amazon,google,microsoft",
-      difficulty: "Hard",
-      number: "1",
-      solution:
-        "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
-      _id: 1,
-    },
-    {
-      title: "Median of two sorted Arrays",
-      company: "Amazon,google,microsoft",
-      difficulty: "Hard",
-      number: "1",
-      solution:
-        "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
-      _id: 2,
-    },
-    {
-      title: "Median of two sorted Arrays",
-      company: "Amazon,google,microsoft",
-      difficulty: "Hard",
-      number: "1",
-      solution:
-        "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
-      _id: 3,
-    },
-    {
-      title: "Median of two sorted Arrays",
-      company: "Amazon,google,microsoft",
-      difficulty: "Hard",
-      number: "1",
-      solution:
-        "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
-      _id: 4,
-    },
-    {
-      title: "Median of two sorted Arrays",
-      company: "Amazon,google,microsoft",
-      difficulty: "Hard",
-      number: "1",
-      solution:
-        "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
-      _id: 5,
-    },
-    {
-      title: "Median of two sorted Arrays",
-      company: "Amazon,google,microsoft",
-      difficulty: "Hard",
-      number: "1",
-      solution:
-        "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
-      _id: 6,
-    },
-    {
-      title: "Median of two sorted Arrays",
-      company: "Amazon,google,microsoft",
-      difficulty: "Hard",
-      number: "1",
-      solution:
-        "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
-      _id: 7,
-    },
-  ];
+  // const lists = [
+  //   {
+  //     title: "Median of two sorted Arrays",
+  //     company: "Amazon,google,microsoft",
+  //     difficulty: "Hard",
+  //     number: "1",
+  //     solution:
+  //       "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
+  //     _id: 1,
+  //   },
+  //   {
+  //     title: "Median of two sorted Arrays",
+  //     company: "Amazon,google,microsoft",
+  //     difficulty: "Hard",
+  //     number: "1",
+  //     solution:
+  //       "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
+  //     _id: 2,
+  //   },
+  //   {
+  //     title: "Median of two sorted Arrays",
+  //     company: "Amazon,google,microsoft",
+  //     difficulty: "Hard",
+  //     number: "1",
+  //     solution:
+  //       "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
+  //     _id: 3,
+  //   },
+  //   {
+  //     title: "Median of two sorted Arrays",
+  //     company: "Amazon,google,microsoft",
+  //     difficulty: "Hard",
+  //     number: "1",
+  //     solution:
+  //       "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
+  //     _id: 4,
+  //   },
+  //   {
+  //     title: "Median of two sorted Arrays",
+  //     company: "Amazon,google,microsoft",
+  //     difficulty: "Hard",
+  //     number: "1",
+  //     solution:
+  //       "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
+  //     _id: 5,
+  //   },
+  //   {
+  //     title: "Median of two sorted Arrays",
+  //     company: "Amazon,google,microsoft",
+  //     difficulty: "Hard",
+  //     number: "1",
+  //     solution:
+  //       "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
+  //     _id: 6,
+  //   },
+  //   {
+  //     title: "Median of two sorted Arrays",
+  //     company: "Amazon,google,microsoft",
+  //     difficulty: "Hard",
+  //     number: "1",
+  //     solution:
+  //       "https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/",
+  //     _id: 7,
+  //   },
+  // ];
 
   return (
     <div>
