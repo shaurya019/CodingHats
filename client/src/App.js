@@ -7,6 +7,7 @@ import Questions from "./pages/questions/Questions";
 import Contests from "./pages/contests/Contests";
 import Roadmap from "./pages/roadmaps/Roadmap";
 import Dashboard from "./pages/dashboard/Dashboard";
+import DsaQuestion from "./pages/dsaquestion/DsaQuestion";
 import { SidebarContext } from "./context/sidebarContext/SidebarContext";
 import { useContext } from "react";
 import Projects from "./pages/projects/Projects";
@@ -23,8 +24,11 @@ function App() {
             <Route path="/" exact>
               <Dashboard SidebarDispatch={dispatch} />
             </Route>
-            <Route path="/dsa">
+            <Route exact path="/dsa">
               <Dsa SidebarDispatch={dispatch} />
+            </Route>
+            <Route path="/dsa/:id">
+              <DsaQuestion SidebarDispatch={dispatch} />
             </Route>
             <Route path="/roadmaps">
               <Roadmap SidebarDispatch={dispatch} />

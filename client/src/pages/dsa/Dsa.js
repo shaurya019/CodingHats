@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 import "./dsa.css";
 
@@ -21,23 +22,25 @@ class dsa extends React.Component {
               {/* dsa quaters it represents a single block*/}
 
               {/* quaters - 1  */}
-              <div className="quaters">
-                <h2>
-                  <p>Day-1</p>
-                </h2>
-                {/* dsa-day it will have links */}
-                <div className="dsa-day"></div>
-              </div>
-
+              <Link to="/dsa/1" className="link">
+                <div className="quaters">
+                  <h2>
+                    <p>Day-1</p>
+                  </h2>
+                  {/* dsa-day it will have links */}
+                  <div className="dsa-day"></div>
+                </div>
+              </Link>
               {/* quaters - 2  */}
-              <div className="quaters">
-                <h2>
-                  <p>Day-2</p>
-                </h2>
-                {/* dsa-day it will have links */}
-                <div className="dsa-day"></div>
-              </div>
-
+              <Link to="/dsa/2" className="link">
+                <div className="quaters">
+                  <h2>
+                    <p>Day-2</p>
+                  </h2>
+                  {/* dsa-day it will have links */}
+                  <div className="dsa-day"></div>
+                </div>
+              </Link>
               {/* quaters - 3  */}
               <div className="quaters">
                 <h2>
