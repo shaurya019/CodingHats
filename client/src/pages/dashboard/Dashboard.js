@@ -185,38 +185,63 @@ class Dashboard extends React.Component {
             </div>
             <div className="blogs-para">
               <p>
-                <mark>Here are some blogs</mark> to get you going on some
-                important topics. Create your own platform for blogging Coding
-                Hats is a powerful website for new-creators to publish, share,
-                and grow there work around their content.It comes with modern
-                tools to build a website, publish content, get knowledge.
+                Here are some blogs to get you going on some important topics.
+                Create your own platform for blogging Coding Hats is a powerful
+                website for new-creators to publish, share, and grow there work
+                around their content.It comes with modern tools to build a
+                website, publish content, get knowledge.
                 <br></br>
-                <mark>
-                  Improve your resume, apply for internships/jobs the right way
-                </mark>
-                , learn more about cold emails, and much more! Keep going.
+                Improve your resume, apply for internships/jobs the right way ,
+                learn more about cold emails, and much more! Keep going.
               </p>
             </div>
           </div>
           <div className="blogs-quater">
-            <div className="blogs-img" id="bg-quater-1">
-              <a className="blogs-quater-box" id="dash-blog-box-1" href="" target="_blank"></a>
-              <a className="blogs-quater-box blog-box-2" id="dash-blog-box-2" href="" target="_blank"></a>
-            </div>
-            <div className="blogs-img" id="bg-quater-2">
-              <a className="blogs-quater-box" id="dash-blog-box-4" href="" target="_blank"></a>
-              <a className="blogs-quater-box blog-box-2" id="dash-blog-box-5" href="" target="_blank"></a>
-              
-            </div>
-            <div className="blogs-img" id="bg-quater-3">
-              <a className="blogs-quater-box" id="dash-blog-box-7" href="" target="_blank"></a>
-              <a className="blogs-quater-box blog-box-2" id="dash-blog-box-8" href="" target="_blank"></a>
-              
-            </div>
-            <div className="blogs-img" id="bg-quater-4">
-              <a className="blogs-quater-box" id="dash-blog-box-10" href="" target="_blank"></a>
-              <a className="blogs-quater-box blog-box-2" id="dash-blog-box-11" href="" target="_blank"></a>
-              
+            <div className="big-blog">
+              <div className="big-blog-1">
+                <div className="sm-blog" id="sm-1">
+                  <h2> Want to know about <mark>GSOC?</mark></h2>
+                  <p></p>
+                </div>
+                <div className="sm-blog" id="sm-2">
+                  <h2>How to find <mark>Coding projects</mark> and{" "}
+                    <mark>people!</mark></h2>
+                  <p></p>
+                </div>
+                <div className="sm-blog" id="sm-3">
+                  <h2>What are <mark>Cold Email</mark></h2>
+                  <p></p>
+                </div>
+              </div>
+              <div className="big-blog-2">
+                <div className="sm-blog" id="sm-4">
+                  <h2>how to become a researcher as college students?</h2>
+                  <p></p>
+                </div>
+                <div className="sm-blog" id="sm-5">
+                  <h2>All about coding hackathons</h2>
+                  <p></p>
+                </div>
+                <div className="sm-blog" id="sm-6">
+                  <h2>Join google student developer club</h2>
+                  <p></p>
+                </div>
+              </div>
+              <div className="big-blog-3">
+                <div className="sm-blog" id="sm-7">
+                  <h2>Tips for technical interview</h2>
+                  <p></p>
+                </div>
+                <div className="sm-blog" id="sm-8">
+                  <h2>How to get Reference Code for Big companies?</h2>
+                  <p></p>
+                </div>
+                <div className="sm-blog" id="sm-9">
+                  <h2>Is Competitive Programming is Boon or Bane?
+                  </h2>
+                  <p></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

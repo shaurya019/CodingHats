@@ -34,9 +34,7 @@
   width: 50px;
 }
 .blogs {
-  background-color: black;
   margin-top: 100px;
-  height: 1050px;
 }
 .blog {
   width: 620px;
@@ -44,24 +42,56 @@
   margin-left: 40px;
 }
 .blogs-head h2 {
-  color: #d1ff19;
+  color: #045757;
   padding-bottom: 25px;
   font-size: 25px;
   margin-top: 25px;
 }
-mark {
+/* mark {
   color: #ffff;
   background-color: black;
-}
+} */
 .blogs-para p {
-  color: rgba(255, 255, 255, 0.6);
+  color: #6d8299;
   opacity: 1;
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: -0.025em;
   line-height: 1.25em;
 }
-.blogs-quater {
+.big-blog {
+  display: flex;
+  flex-direction: column;
+}
+.big-blog-1 {
+  display: flex;
+  flex-direction: row;
+}
+.big-blog-2 {
+  display: flex;
+  flex-direction: row;
+}
+.big-blog-3 {
+  display: flex;
+  flex-direction: row;
+}
+#sm-1,
+#sm-2,
+#sm-3,
+#sm-4,
+#sm-5,
+#sm-6,
+#sm-7,
+#sm-8,
+#sm-9 {
+  border: 2px solid red;
+  height: 175px;
+  width: 300px;
+}
+#sm-1 {
+  margin: 0px 25px 25px 0px;
+}
+/* .blogs-quater {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -71,68 +101,36 @@ mark {
 .blogs-quater-box {
   border: 2px solid;
   padding: 10px;
-  height: 180px;
-  width: 200px;
+  height: 220px;
+  width: 240px;
   margin-bottom: 40px;
 }
-#bg-quater-1 {
-  display: flex;
-  flex-direction: column;
-}
-#bg-quater-2 {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-}
+#bg-quater-1,
 #bg-quater-3 {
   display: flex;
   flex-direction: column;
 }
+#bg-quater-2,
 #bg-quater-4 {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 30px;
 }
+
 .blog-box-2 {
   margin-left: 25px;
-}
+} */
 
-#dash-blog-box-1 {
-  background-color: #e9e50c;
-  border: #e9e50c;
-}
-#dash-blog-box-2 {
-  background-color: #2fdd92;
-  border: #2fdd92;
-}
-
-#dash-blog-box-4 {
-  background-color: #ff247d;
-  border: #ff247d;
-}
-#dash-blog-box-5 {
-  background-color: #7dedff;
-  border: #7dedff;
-}
-
-#dash-blog-box-7 {
-  background-color: rebeccapurple;
-  border: rebeccapurple;
-}
-#dash-blog-box-8 {
-  background-color: #d1ff19;
-  border: #d1ff19;
-}
-
-#dash-blog-box-10 {
-  background-color: #FF7878;
-  border: #FF7878;
-}
+/* #dash-blog-box-1,
+#dash-blog-box-5,
+#dash-blog-box-7,
 #dash-blog-box-11 {
-  background-color: #2f86a6;
-  border: #2f86a6;
+  border: #29a19c;
 }
+#dash-blog-box-2,
+#dash-blog-box-4,
+#dash-blog-box-8,
+#dash-blog-box-10,
 #dash-blog-box-12 {
-  background-color: #2fdd92;
-  border: #2fdd92;
-}
+  border: #ff5722;
+} */
