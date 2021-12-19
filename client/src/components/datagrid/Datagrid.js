@@ -5,19 +5,8 @@ import "./datagrid.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-function Datagrid() {
-  const [lists, changeList] = useState([]);
-
-  useEffect(() => {
-    const fetchQuestions = async () => {
-      const res = await axios.get("/question");
-      // console.log(res.data);
-      changeList(res.data);
-      // lists = res.data;
-    };
-    // console.log(lists);
-    fetchQuestions();
-  }, []);
+function Datagrid(props) {
+  
   const columns = [
     // {
     //   field: "number",
@@ -181,7 +170,7 @@ function Datagrid() {
       <div style={{ height: "800px", width: "80%", margin: "0px auto" }}>
         <DataGrid
           className={classes.root}
-          rows={lists}
+          rows={props.list}
           disableSelectionOnClick
           columns={columns}
           pageSize={6}

@@ -2,11 +2,33 @@ import React, { Component } from "react";
 import "./questions.css";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 import Datagrid from "../../components/datagrid/Datagrid";
+import axios from 'axios';
 export default class Questions extends Component {
   componentDidMount() {
     const { SidebarDispatch } = this.props;
     SidebarDispatch(changeSelect("questions"));
   }
+
+  constructor(){
+    super();
+    this.state = {
+      list : []
+    }
+  }
+  componentDidMount(){
+    const fetchQuestions = async () => {
+      const res = await axios.get("/question");
+      // console.log(res.data);
+      this.setState({
+        list : res.data
+      })
+      // lists = res.data;
+    };
+    // console.log(lists);
+    fetchQuestions();
+  }
+
+
   render() {
     return (
       <div className="section-3">
@@ -33,7 +55,7 @@ export default class Questions extends Component {
                 </div>
               </div>
             </div>
-            <Datagrid />
+            <Datagrid list = {this.state.list}/>
             <div className="Part-2">
               <div className="company-box-main">
                 <div className="company-box-p1">

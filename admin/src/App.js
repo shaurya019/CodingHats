@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { SidebarContext } from "./context/SidebarContext/SidebarContext";
 import Question from "./pages/Question/Question";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import DayVise from "./pages/dayVise/DayVise";
 
 function App() {
   const { dispatch } = useContext(SidebarContext);
@@ -13,8 +14,11 @@ function App() {
         <Sidebar />
         <div className="container">
           <Switch>
-            <Route to="/" exact>
+            <Route path="/" exact>
               <Question SidebarDispatch={dispatch} />
+            </Route>
+            <Route path="/dayVise">
+              <DayVise SidebarDispatch={dispatch} />
             </Route>
           </Switch>
         </div>
