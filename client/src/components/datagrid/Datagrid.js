@@ -3,17 +3,19 @@ import { Code, NoteAdd } from "@material-ui/icons";
 import { makeStyles, createStyles } from "@material-ui/core";
 import "./datagrid.css";
 import axios from "axios";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function Datagrid() {
-  let lists = [];
+  const [lists, changeList] = useState([]);
 
   useEffect(() => {
     const fetchQuestions = async () => {
       const res = await axios.get("/question");
-      lists = res;
+      // console.log(res.data);
+      changeList(res.data);
+      // lists = res.data;
     };
-
+    // console.log(lists);
     fetchQuestions();
   }, []);
   const columns = [

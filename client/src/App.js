@@ -8,6 +8,7 @@ import Contests from "./pages/contests/Contests";
 import Roadmap from "./pages/roadmaps/Roadmap";
 import Dashboard from "./pages/dashboard/Dashboard";
 import DsaQuestion from "./pages/dsaquestion/DsaQuestion";
+import Contest from "./pages/contest/Contest";
 import { SidebarContext } from "./context/sidebarContext/SidebarContext";
 import { useContext } from "react";
 import Projects from "./pages/projects/Projects";
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route path="/dsa/:id">
               <DsaQuestion SidebarDispatch={dispatch} />
+            </Route>
+            <Route path="/contests/:platform">
+              <Contest SidebarDispatch={dispatch} />
             </Route>
             <Route path="/roadmaps">
               <Roadmap SidebarDispatch={dispatch} />
