@@ -39,6 +39,19 @@ function Sidebar() {
                 </li>
               )}
             </Link>
+            <Link to="/dayVise" className="link">
+              {page === "dayViseQuestion" ? (
+                <li className="sidebarListItem select">
+                  <Dashboard className="sidebarListIcon" />
+                  DayViseQuestion
+                </li>
+              ) : (
+                <li className="sidebarListItem">
+                  <Dashboard className="sidebarListIcon" />
+                  DayViseQuestion
+                </li>
+              )}
+            </Link>
             {/* <Link to="/dsa" className="link">
               {page === "dsa" ? (
                 <li className="sidebarListItem select">

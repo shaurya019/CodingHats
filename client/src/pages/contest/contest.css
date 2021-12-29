@@ -1,0 +1,37 @@
+.contest-heading {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.all-contests {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.contest-div {
+  width: 50%;
+  margin: auto auto;
+  margin-top: 30px;
+  background-color: black;
+  padding: 30px;
+}
+
+.contest-div div {
+  width: 100%;
+  display: flex;
+}
+
+.contest-div div div {
+  color: white;
+  padding: 10px;
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.url-div a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
