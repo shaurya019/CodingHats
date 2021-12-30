@@ -195,34 +195,6 @@ class Roadmap extends React.Component {
                   <h3>Want to know about Internships?</h3>
                 </div>
               </div>
-              <div className="Graphs">
-                {/* Graphs */}
-                <div className="Graphs-main-head">
-                  <h2>TRENDING</h2>
-                </div>
-                <div className="Graphs-para">
-                  <p>
-                    Checkout the trending graphs of different frameworks and
-                    technologies
-                  </p>
-                  <ResponsiveContainer width="100%" aspect={3}>
-                    <LineChart
-                      data={data}
-                      width={500}
-                      height={300}
-                      margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-                    >
-                      <CartesianGrid />
-                      <XAxis dataKey="year" interval={"preserveStartEnd"} />
-                      <YAxis />
-                      <Tooltip />
-                      <legend />
-                      <Line dataKey="percent" stroke="red" />
-                      <Line dataKey="name" stroke="blue" />
-                    </LineChart>
-                  </ResponsiveContainer>
-                </div>
-              </div>
             </div>
           </div>
         </div>
