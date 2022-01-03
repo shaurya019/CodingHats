@@ -59,7 +59,8 @@ function Contest() {
 
   return (
     <div className="contests">
-      <div className="contest-heading">Competitive Programming</div>
+      <div className="contest-heading">{contestName}</div>
+      <div className="contest-sub-heading">Upcoming Contest</div>
       <div className="all-contests">
         {!contests && <div>Loading...</div>}
         {contests && contests.length == 0 && <div>No Contests </div>}
