@@ -7,12 +7,6 @@ import Datagrid from "../../components/datagrid/Datagrid";
 import axios from 'axios';
 import { IconContext } from "react-icons/lib";
 import { FcQuestions,FcVlc,FcTodoList } from "react-icons/fc";
-export default class Questions extends Component {
-  componentDidMount() {
-    const { SidebarDispatch } = this.props;
-    SidebarDispatch(changeSelect("questions"));
-  }
-
 export default function Questions(){
 
   const { dispatch } = useContext(SidebarContext);
@@ -46,6 +40,28 @@ export default function Questions(){
                 <h3>Try to solve the question!!</h3>
 
                 <div className="question-box">
+                  <h1> Dungeon game</h1>
+                  <p>The demons had captured the princess and imprisoned her in the bottom-right corner of a dungeon. The dungeon consists of m x n rooms laid out in a 2D grid. Our valiant knight was initially positioned in the top-left room and must fight his way through dungeon to rescue the princess.
+
+                    The knight has an initial health point represented by a positive integer. If at any point his health point drops to 0 or below, he dies immediately.
+
+                    Some of the rooms are guarded by demons (represented by negative integers), so the knight loses health upon entering these rooms; other rooms are either empty (represented as 0) or contain magic orbs that increase the knight's health (represented by positive integers).
+
+                    To reach the princess as quickly as possible, the knight decides to move only rightward or downward in each step.
+
+                    Return the knight's minimum initial health so that he can rescue the princess.
+
+                    Note that any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.</p>
+                  <div className="question-sol">
+                  <a id="link1" href="https://leetcode.com/problems/dungeon-game/" target="_blank">
+                      Solve here
+                    </a>
+                    <a id="link1" href="https://leetcode.com/problems/dungeon-game/discuss/1641955/Java-%2B-DP-%2B-Intuition-%2B-Code-with-comments" target="_blank">
+                      Text Solution
+                    </a>
+                    <a id="link2" href="https://www.youtube.com/watch?v=4uUGxZXoR5o" target="_blank">
+                      Video Solution
+                      </a>
                   <p>Question</p>
                    <IconContext.Provider value={{size:"1.5em"}}>
                   <div className="question-sol">
@@ -135,6 +151,7 @@ export default function Questions(){
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
 }
