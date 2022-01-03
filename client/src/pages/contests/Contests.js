@@ -1,4 +1,6 @@
 import "./contests.css";
+import { IconContext } from "react-icons/lib";
+import { FcBinoculars } from "react-icons/fc";
 import { useContext, useEffect, useState } from "react";
 import { SidebarContext } from "../../context/sidebarContext/SidebarContext";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
@@ -13,7 +15,11 @@ function Contests() {
 
   return (
     <div className="contests">
-      <div className="contest-heading">Competitive Programming</div>
+      <IconContext.Provider value={{size:"1.5em"}}>
+      <div className="contest-heading">Competitive Programming< FcBinoculars/></div>
+      </IconContext.Provider>
+      <div className="contest-heading-2">Start With To Achieve Big!!</div>
+      <hr />
       <div className="contest-container">
         <Link to="/contests/codechef" className="link">
           <div className="contest-box" id="contest-1"><img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/zruiknbedz8yqafxbazb"></img>Codechef</div>

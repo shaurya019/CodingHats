@@ -3,6 +3,8 @@ import "./questions.css";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 import Datagrid from "../../components/datagrid/Datagrid";
 import axios from 'axios';
+import { IconContext } from "react-icons/lib";
+import { FcQuestions,FcVlc,FcTodoList } from "react-icons/fc";
 export default class Questions extends Component {
   componentDidMount() {
     const { SidebarDispatch } = this.props;
@@ -36,7 +38,9 @@ export default class Questions extends Component {
           <div className="row">
             <div className="Part-1">
               <div className="question-main-head">
-                <h2>Weekly Question</h2>
+              {/* <IconContext.Provider value={{margin:"3em"}}> */}
+                <h2>Weekly Question<FcQuestions /></h2>
+                {/* </IconContext.Provider> */}
               </div>
 
               <div className="question-head">
@@ -44,14 +48,16 @@ export default class Questions extends Component {
 
                 <div className="question-box">
                   <p>Question</p>
+                   <IconContext.Provider value={{size:"1.5em"}}>
                   <div className="question-sol">
                     <a id="link1" href="" target="_blank">
-                      Text Solution
+                      Text <FcTodoList />
                     </a>
                     <a id="link2" href="" target="_blank">
-                      Video Solution
+                      Video <FcVlc /> 
                     </a>
                   </div>
+                  </IconContext.Provider>
                 </div>
               </div>
             </div>

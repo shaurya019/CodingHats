@@ -1,4 +1,6 @@
 import React from "react";
+import { IconContext } from "react-icons/lib";
+import { FcIdea,FcFlashOn } from "react-icons/fc";
 import { Link } from "react-router-dom";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 import "./dsa.css";
@@ -16,7 +18,11 @@ class dsa extends React.Component {
           <div className="row">
             {/* dsa heading */}
             <div className="Dsa-head">
-              <h2>DSA Revision</h2>
+            <h2>DSA Revision<FcIdea />
+            </h2>
+            <div className="Dsa-head-text">
+              <p>Arrays DP  Trees  Graphs  Stack  Queue  Recursion</p>
+            </div>
               <hr></hr>
             </div>
             {/* dsa blocks */}
@@ -330,15 +336,15 @@ class dsa extends React.Component {
           <div className="Algo">
           <div className="row">
           <div className="Algo-head">
-           Algorithms
+              Algorithms
           </div>  
           <div className="Algo-text">
-          <div className="Algo-head-text" id="algo-head-1">SERACHING</div>
+          <div className="Algo-head-text" id="algo-head-1"><IconContext.Provider value={{size:"1em"}}>SERACH <FcFlashOn /></IconContext.Provider></div>
           <div className="Algo-main" id="Algo-1"><a href="">Linear Search</a></div>
           <div className="Algo-main" id="Algo-2"><a href="">Binary Search</a></div>
           <div className="Algo-main" id="Algo-3"><a href="">DFS</a></div>
           <div className="Algo-main" id="Algo-4"><a href="">BFS</a></div>
-          <div className="Algo-head-text" id="algo-head-2">SORTING</div>
+          <div className="Algo-head-text" id="algo-head-2"><IconContext.Provider value={{size:"1em"}}>SORT<FcFlashOn /></IconContext.Provider></div>
           <div className="Algo-main" id="Algo-5"><a href="">Selection Sort</a></div>
           <div className="Algo-main" id="Algo-6"><a href="">Bubble Sort</a></div>
           <div className="Algo-main" id="Algo-7"><a href="">Insertion Sort</a></div>
@@ -348,21 +354,21 @@ class dsa extends React.Component {
           <div className="Algo-main" id="Algo-11"><a href="">Radix Sort</a></div>
           <div className="Algo-main" id="Algo-12"><a href="">Counting Sort</a></div>
           <div className="Algo-main" id="Algo-13"><a href="">Bucket Sort</a></div>
-          <div className="Algo-head-text" id="algo-head-3">ARRAYS</div>
+          <div className="Algo-head-text" id="algo-head-3"><IconContext.Provider value={{size:"1em"}}>ARRAYS<FcFlashOn /></IconContext.Provider></div>
           <div className="Algo-main" id="Algo-14"><a href="">Kadane's Algo</a></div>
           <div className="Algo-main" id="Algo-15"><a href="">KMP Algo</a></div>
           <div className="Algo-main" id="Algo-16"><a href="">Quick Select Algo</a></div>
           <div className="Algo-main" id="Algo-17"><a href="">Boyer Algo</a></div>   
-          <div className="Algo-main" id="Algo-18"><a href="">Flyod's Cycle Detection Algo</a></div>
-          <div className="Algo-head-text" id="algo-head-4">GRAPHS</div>
+          <div className="Algo-main" id="Algo-18"><a href="">Flyod's Algo</a></div>
+          <div className="Algo-head-text" id="algo-head-4"><IconContext.Provider value={{size:"1em"}}>GRAPHS<FcFlashOn /></IconContext.Provider></div>
           <div className="Algo-main" id="Algo-19"><a href="">Kruskal's Algo</a></div>
           <div className="Algo-main" id="Algo-20"><a href="">Dijkstra's Algo</a></div>
           <div className="Algo-main" id="Algo-21"><a href="">Bellman Ford Algo</a></div>
           <div className="Algo-main" id="Algo-23"><a href="">Floyd Warshall Algo</a></div>
           <div className="Algo-main" id="Algo-24"><a href="">Flood Fill Algo</a></div>
           <div className="Algo-main" id="Algo-25"><a href="">Lee Algo</a></div>
-          <div className="Algo-head-text" id="algo-head-4">BASIC</div>
-          <div className="Algo-main" id="Algo-26"><a href="">Huffman Coding Compression Algo</a></div>
+          <div className="Algo-head-text" id="algo-head-5"><IconContext.Provider value={{size:"1em"}}>BASIC<FcFlashOn /></IconContext.Provider></div>
+          <div className="Algo-main" id="Algo-26"><a href="">Huffman Coding Algo</a></div>
           <div className="Algo-main" id="Algo-27"><a href="">Euclid's Algo</a></div>
           <div className="Algo-main" id="Algo-28"><a href="">Union Find Algo</a></div>
           </div> 

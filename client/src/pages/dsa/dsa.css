@@ -7,6 +7,13 @@
   margin-right: auto;
   margin-left: auto;
 }
+.Dsa-head-text p{
+  word-spacing: 20px;
+  font-size: 18px;
+  color: #716F81;
+  text-align: center;
+  margin-bottom: 25px;
+}
 .dsa-blocks {
   display: grid;
   grid-gap: 50px;
@@ -124,11 +131,12 @@
   /* margin-top: 35px; */
   padding-top: 35px;
   /* margin-bottom: 25px; */
-  padding-bottom: 35px;
+  padding-bottom: 15px;
   font-size: 40px;
 }
 .Algo{
-  border: 2px solid red;
+  border: 2px solid #444444;
+  background-color: #334756;
   width: 30%;
   margin: 25px 5px 20px 10px;
   border-radius: 25px;
@@ -138,7 +146,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 800;
 }
 .Algo-text{
@@ -146,8 +154,32 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 35px 10px 10px 15px;
 }
 .Algo-main{
   font-size: 25px;
   margin: auto auto;
+}
+.Algo-main{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.Algo-main a{
+  text-decoration: none;
+  color:#FF4C29;
+}
+#algo-head-1,#algo-head-2,#algo-head-3,#algo-head-4,#algo-head-5{
+  font-size: 31px;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color:#ffff;
+}
+.Algo-main a:hover{
+  border: 2px solid #FF4C29;
+  border-radius: 30px;
+  padding: 5px;
+  background-color: #fff;
 }

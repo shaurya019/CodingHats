@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillPushpin } from "react-icons/ai";
 import "./roadmap.css";
 import {
   ResponsiveContainer,
@@ -11,6 +12,7 @@ import {
   Tooltip,
 } from "recharts";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
+import { IconContext } from "react-icons/lib";
 const data = [
   {
     name: "React",
@@ -150,7 +152,9 @@ class Roadmap extends React.Component {
           <div className="row">
             {/* Roadmaps heading */}
             <div className="roadmap-head">
-              <h2>Roadmaps</h2>
+              <IconContext.Provider value={{color:"#125d98"}}>
+              <h2>RoadMaps<AiFillPushpin /></h2>
+              </IconContext.Provider>
               <p>Explore and try something new!!</p>
             </div>
             <hr />
@@ -193,6 +197,15 @@ class Roadmap extends React.Component {
                 </div>
                 <div className="Intern-box">
                   <h3>Want to know about Internships?</h3>
+                </div>
+              </div>
+              {/* frameworks */}
+              <div className="frame">
+              <div className="frame-main-head">
+                  <h2>FRAMEWORKS</h2>
+                </div>
+                <div className="frame-box">
+                  <h3>React</h3>
                 </div>
               </div>
             </div>

@@ -102,6 +102,27 @@ p {
   padding: 10px;
   text-align: center;
 }
+.frame-box {
+  background: url(https://res.cloudinary.com/practicaldev/image/fetch/s--V068QLqC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jbux8kukb9osdpqwc2sm.png)
+    no-repeat center/cover;
+  height: 200px;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.frame {
+  margin-bottom: 60px;
+}
+.frame-main-head h2 {
+  width: 200px;
+  background-color: #1C6DD0;
+  color: white;
+  border-right: 2px solid #1C6DD0;
+  border-bottom: 2px solid #1C6DD0;
+  box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+  padding: 10px;
+  text-align: center;
+}
 .Graphs-main-head h2 {
   width: 185px;
   background-color: #125d98;

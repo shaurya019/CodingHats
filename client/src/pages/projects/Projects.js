@@ -1,5 +1,7 @@
 import React from "react";
 import "./projects.css";
+import { IconContext } from "react-icons/lib";
+import { FcApproval } from "react-icons/fc";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 class Projects extends React.Component {
   componentDidMount() {
@@ -12,7 +14,7 @@ class Projects extends React.Component {
       <div className="Project-col">
       <div className="Project-head">
       <div id="Project-head-1">
-        <h2>Projects</h2>
+        <h2>Projects <FcApproval /></h2>
         </div> 
         <div id="Project-head-2">
         <h4>Cool Intresting Stuff!!</h4>
