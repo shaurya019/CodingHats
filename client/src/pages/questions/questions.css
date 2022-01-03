@@ -23,10 +23,16 @@
 /* .question-box{
 
 } */
+.question-box h1 {
+  margin-bottom: 25px;
+  margin-left: 20px;
+  color:black;
+}
 .question-box p {
   font-size: 20px;
   margin-bottom: 25px;
   margin-left: 20px;
+  color:black;
 }
 .question-sol {
   display: flex;

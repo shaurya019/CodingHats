@@ -13,7 +13,7 @@ import { useContext } from "react";
 
 function Sidebar() {
   const { page, dispatch } = useContext(SidebarContext);
-  console.log(page);
+  
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -78,7 +78,7 @@ function Sidebar() {
                 </li>
               )}
             </Link>
-            <Link to="projects" className="link">
+            <Link to="/projects" className="link">
               {page === "projects" ? (
                 <li className="sidebarListItem select">
                   <Attachment className="sidebarListIcon" />
@@ -91,7 +91,7 @@ function Sidebar() {
                 </li>
               )}
             </Link>
-            <Link to="contests" className="link">
+            <Link to="/contests" className="link">
               {page === "contests" ? (
                 <li className="sidebarListItem select">
                   <ArrowDropDown className="sidebarListIcon" />

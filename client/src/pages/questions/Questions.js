@@ -1,36 +1,30 @@
 import React, { Component } from "react";
 import "./questions.css";
+import {useContext , useState , useEffect} from 'react';
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
+import { SidebarContext } from "../../context/sidebarContext/SidebarContext";
 import Datagrid from "../../components/datagrid/Datagrid";
 import axios from 'axios';
-export default class Questions extends Component {
-  componentDidMount() {
-    const { SidebarDispatch } = this.props;
-    SidebarDispatch(changeSelect("questions"));
-  }
 
-  constructor(){
-    super();
-    this.state = {
-      list : []
-    }
-  }
-  componentDidMount(){
+export default function Questions(){
+
+  const { dispatch } = useContext(SidebarContext);
+
+  useEffect(() => {
+    dispatch(changeSelect("questions"));
+  }, [dispatch]);
+
+  const [list,changeList] = useState([]);
+
+  useEffect(() => {
     const fetchQuestions = async () => {
       const res = await axios.get("/question");
-      // console.log(res.data);
-      this.setState({
-        list : res.data
-      })
-      // lists = res.data;
+      changeList(res.data);
     };
-    // console.log(lists);
     fetchQuestions();
-  }
+  },[list]);
 
-
-  render() {
-    return (
+  return (
       <div className="section-3">
         <div className="container">
           <div className="row">
@@ -43,19 +37,33 @@ export default class Questions extends Component {
                 <h3>Try to solve the question!!</h3>
 
                 <div className="question-box">
-                  <p>Question</p>
+                  <h1> Dungeon game</h1>
+                  <p>The demons had captured the princess and imprisoned her in the bottom-right corner of a dungeon. The dungeon consists of m x n rooms laid out in a 2D grid. Our valiant knight was initially positioned in the top-left room and must fight his way through dungeon to rescue the princess.
+
+                    The knight has an initial health point represented by a positive integer. If at any point his health point drops to 0 or below, he dies immediately.
+
+                    Some of the rooms are guarded by demons (represented by negative integers), so the knight loses health upon entering these rooms; other rooms are either empty (represented as 0) or contain magic orbs that increase the knight's health (represented by positive integers).
+
+                    To reach the princess as quickly as possible, the knight decides to move only rightward or downward in each step.
+
+                    Return the knight's minimum initial health so that he can rescue the princess.
+
+                    Note that any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.</p>
                   <div className="question-sol">
-                    <a id="link1" href="" target="_blank">
+                  <a id="link1" href="https://leetcode.com/problems/dungeon-game/" target="_blank">
+                      Solve here
+                    </a>
+                    <a id="link1" href="https://leetcode.com/problems/dungeon-game/discuss/1641955/Java-%2B-DP-%2B-Intuition-%2B-Code-with-comments" target="_blank">
                       Text Solution
                     </a>
-                    <a id="link2" href="" target="_blank">
+                    <a id="link2" href="https://www.youtube.com/watch?v=4uUGxZXoR5o" target="_blank">
                       Video Solution
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <Datagrid list = {this.state.list}/>
+            <Datagrid list = {list}/>
             <div className="Part-2">
               <div className="company-box-main">
                 <div className="company-box-p1">
@@ -132,5 +140,4 @@ export default class Questions extends Component {
         </div>
       </div>
     );
-  }
 }

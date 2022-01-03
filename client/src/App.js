@@ -12,6 +12,8 @@ import Contest from "./pages/contest/Contest";
 import { SidebarContext } from "./context/sidebarContext/SidebarContext";
 import { useContext } from "react";
 import Projects from "./pages/projects/Projects";
+import ProjectTech from "./pages/projectTech/ProjectTech";
+import RoadmapPage from "./pages/roadmapPage/RoadmapPage";
 
 function App() {
   const { dispatch } = useContext(SidebarContext);
@@ -34,14 +36,20 @@ function App() {
             <Route path="/contests/:platform">
               <Contest SidebarDispatch={dispatch} />
             </Route>
-            <Route path="/roadmaps">
+            <Route path="/roadmaps/:tech">
+              <RoadmapPage SidebarDispatch={dispatch} />
+            </Route>
+            <Route exact path="/roadmaps">
               <Roadmap SidebarDispatch={dispatch} />
             </Route>
             <Route path="/questions">
               <Questions SidebarDispatch={dispatch} />
             </Route>
-            <Route path="/projects">
+            <Route exact path="/projects">
               <Projects SidebarDispatch={dispatch} />
+            </Route>
+            <Route path="/projects/:tech">
+              <ProjectTech SidebarDispatch={dispatch} />
             </Route>
             <Route path="/contests">
               <Contests />

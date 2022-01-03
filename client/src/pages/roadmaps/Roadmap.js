@@ -10,6 +10,7 @@ import {
   Legend,
   Tooltip,
 } from "recharts";
+import {Link} from 'react-router-dom';
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 const data = [
   {
@@ -162,22 +163,31 @@ class Roadmap extends React.Component {
               </div>
               {/* tech-box   */}
               <div className="tech-box">
-                <div className="tech-box-1">
-                  <div className="techno" id="tech-box-1">
-                    <h3>Web development</h3>
+                  <div className="tech-box-1">
+                    <Link to="/roadmaps/web" className="link">
+                      <div className="techno" id="tech-box-1">
+                        <h3>Web development</h3>
+                      </div>
+                    </Link>
+                    <Link to="/roadmaps/android" className="link">
+                      <div className="techno" id="tech-box-2">
+                        <h3>Android development</h3>
+                      </div>
+                    </Link>
                   </div>
-                  <div className="techno" id="tech-box-2">
-                    <h3>Android development</h3>
-                  </div>
-                </div>
                 <div className="tech-box-2">
-                  <div className="techno" id="tech-box-3">
-                    <h3>Machine Learning</h3>
-                  </div>
-                  <div className="techno" id="tech-box-4">
-                    <h3>Back-End</h3>
-                  </div>
+                  <Link to="/roadmaps/ml" className="link">
+                    <div className="techno" id="tech-box-3">
+                      <h3>Machine Learning</h3>
+                    </div>
+                  </Link>
+                  <Link to="/roadmaps/backEnd" className="link">
+                    <div className="techno" id="tech-box-4">
+                      <h3>Back-End</h3>
+                    </div>
+                  </Link>
                 </div>
+                <Link to="/roadmaps/web" className="link"></Link>
                 <div className="tech-box-3">
                   <div className="techno" id="tech-box-5">
                     <h3>Block chain ,AI and Deep Learning</h3>
