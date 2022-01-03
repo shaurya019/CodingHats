@@ -5,17 +5,8 @@ import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 import { SidebarContext } from "../../context/sidebarContext/SidebarContext";
 import Datagrid from "../../components/datagrid/Datagrid";
 import axios from 'axios';
-<<<<<<< HEAD
-=======
 import { IconContext } from "react-icons/lib";
 import { FcQuestions,FcVlc,FcTodoList } from "react-icons/fc";
-export default class Questions extends Component {
-  componentDidMount() {
-    const { SidebarDispatch } = this.props;
-    SidebarDispatch(changeSelect("questions"));
-  }
->>>>>>> ba348476919167885f4f739d9ba7a484a6c403c5
-
 export default function Questions(){
 
   const { dispatch } = useContext(SidebarContext);
@@ -49,7 +40,6 @@ export default function Questions(){
                 <h3>Try to solve the question!!</h3>
 
                 <div className="question-box">
-<<<<<<< HEAD
                   <h1> Dungeon game</h1>
                   <p>The demons had captured the princess and imprisoned her in the bottom-right corner of a dungeon. The dungeon consists of m x n rooms laid out in a 2D grid. Our valiant knight was initially positioned in the top-left room and must fight his way through dungeon to rescue the princess.
 
@@ -71,7 +61,7 @@ export default function Questions(){
                     </a>
                     <a id="link2" href="https://www.youtube.com/watch?v=4uUGxZXoR5o" target="_blank">
                       Video Solution
-=======
+                      </a>
                   <p>Question</p>
                    <IconContext.Provider value={{size:"1.5em"}}>
                   <div className="question-sol">
@@ -80,7 +70,6 @@ export default function Questions(){
                     </a>
                     <a id="link2" href="" target="_blank">
                       Video <FcVlc /> 
->>>>>>> ba348476919167885f4f739d9ba7a484a6c403c5
                     </a>
                   </div>
                   </IconContext.Provider>
@@ -162,6 +151,7 @@ export default function Questions(){
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
 }
