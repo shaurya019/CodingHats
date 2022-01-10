@@ -1,19 +1,66 @@
-.carousel-item{
-    height: 200px;
-    width: 300px;
-    background-color: red;
-    border-radius: 20px;
-    color: white;
-    font-weight: 700;
-    padding:5%;
-    font-size: 25px;
-    text-transform: uppercase;
+.tech-easy{
+
+}
+.easy-head{
+
 }
 
-.carousel-container-heading{
-    text-align: center;
-    margin-top: 25px;
+.Tech{
+ display: flex;
+ flex-direction: column;
+ margin: 35px 20px 35px 32px;
 }
-.carousel{
-    margin-top: 50px;
+.T-head{
+    font-size: 22px;
+    border: 2px solid #B958A5;
+    width: 196px;
+    margin-bottom: 20px;
+}
+.T-head h4{
+    color: #FF5677;
+    padding: 5px;
+}
+.tech-set{
+    margin: 20px 10px 35px 10px;
+}
+.T-para p{
+    font-size: 15px;
+    color: #9D9D9D;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+span{
+    color: #7267CB;
+}
+.Card-box{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    background-color: #f4f6f9;
+    height: 200px;
+    width: 300px;
+}
+.Card-data{
+    display: flex;
+    flex-direction: row;
+}
+.Card-box-data p{
+    color: #7267CB;
+    font-size: 35px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+.Card-box-data{
+    padding: 15px;
+}
+
+.Card-link{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Card-link-data a{
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
 }
