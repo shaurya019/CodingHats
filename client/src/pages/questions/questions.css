@@ -7,12 +7,38 @@
   margin: 50px 30px;
   color: yellowgreen;
 }
+.question-main-head h2{
+  position: relative;
+  width:max-content;
+}
+.question-main-head h2::after {
+  content:"";
+  position:absolute;
+  height: 6px;
+  background:yellowgreen;
+  width:100%;
+  left:-30px;
+  bottom:0;
+  transform:scaleX(0);
+  transition: transform 500ms ease;
+}
+
+.question-main-head h2:hover::after{
+  transform:scaleX(1);
+}
+
+.weekly-question-text{
+  font-family: sans-serif;
+}
+
 .question-head {
   border: 2px solid #ffff;
   box-shadow: 3px 3px 4px 3px #9d9d9d;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
+
 .question-head h3 {
   font-size: 20px;
   margin-left: 20px;
@@ -44,6 +70,9 @@
   text-decoration: none;
   margin-bottom: 20px;
   padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #link1 {
   color: #6d8299;

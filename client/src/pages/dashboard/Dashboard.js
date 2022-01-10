@@ -42,6 +42,8 @@ class Dashboard extends React.Component {
         <div className="technews">
           <div className="technewsHeading">Latest in Tech</div>
           <div className="technewsList">
+            {!this.state.articles && <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%" }}><div class="water">
+            </div></div>}
             {this.state.articles &&
               this.state.articles.map((element, index) => {
                 return <Technews {...element} color={colors[index]} />;
@@ -57,7 +59,7 @@ class Dashboard extends React.Component {
           </div>
         </div>
 
-        
+
         {/* blogs */}
         <div className="blogs">
           <div className="blog">
@@ -225,8 +227,8 @@ class Dashboard extends React.Component {
         <div className="challenge">
           <div className="col-challenge">
             <div className="head-challenge">
-            <div className="head-challenge-1">GOOGLE'S</div>
-            <div className="head-challenge-2"> UPCOMING CHALLENGE</div></div>
+              <div className="head-challenge-1">GOOGLE'S</div>
+              <div className="head-challenge-2"> UPCOMING CHALLENGE</div></div>
             <div className="row-challenge">
               <div className="google-challenge" id="challenge-1">
                 <div className="google-challenge-content">
@@ -234,42 +236,42 @@ class Dashboard extends React.Component {
                     <img src="https://www.hiretheyouth.org/wp-content/uploads/2018/01/Hash-Code.jpg" alt="sorry"></img>
                   </div>
                   <div className="google-para" id="google-para1">
-                  <h3>Google HashCode</h3>
+                    <h3>Google HashCode</h3>
                     <p>A team programming competition – you pick your team and programming language to solve an engineering problem.</p>
                   </div>
                   <div className="google-link" id="google-link1">
-                  <a href="https://codingcompetitions.withgoogle.com/hashcode">Register</a>
-                  <p>Jan 6 , 2022</p>
+                    <a href="https://codingcompetitions.withgoogle.com/hashcode">Register</a>
+                    <p>Jan 6 , 2022</p>
                   </div>
                 </div>
               </div>
               <div className="google-challenge" id="challenge-2">
-              <div className="google-challenge-content">
+                <div className="google-challenge-content">
                   <div className="contest-img" id="google-img-2">
-                  <img src="https://codingcompetitions.withgoogle.com/static/kickstart-fb.jpg" alt="sorry"></img>
+                    <img src="https://codingcompetitions.withgoogle.com/static/kickstart-fb.jpg" alt="sorry"></img>
                   </div>
                   <div className="google-para" id="google-para2">
-                  <h3>Google Kick Start</h3>
+                    <h3>Google Kick Start</h3>
                     <p>Hone your coding skills with algorithmic puzzles meant for students and those new to coding competitions.</p>
                   </div>
                   <div className="google-link" id="google-link2">
-                  <a href="https://codingcompetitions.withgoogle.com/kickstart">Register</a>
-                  <p> Feb 1 , 2022</p>
+                    <a href="https://codingcompetitions.withgoogle.com/kickstart">Register</a>
+                    <p> Feb 1 , 2022</p>
                   </div>
                 </div>
               </div>
               <div className="google-challenge" id="challenge-3">
-              <div className="google-challenge-content">
+                <div className="google-challenge-content">
                   <div className="contest-img" id="google-img-3">
-                  <img src="http://img.timeinc.net/time/photoessays/2010/top10_geeky_champs/google.jpg" alt="sorry"></img>
+                    <img src="http://img.timeinc.net/time/photoessays/2010/top10_geeky_champs/google.jpg" alt="sorry"></img>
                   </div>
                   <div className="google-para" id="google-para3">
                     <h3>Google Code Jam</h3>
                     <p>Put your skills to the test as you work your way through multiple rounds of algorithmic puzzles for the title of Code Jam Champ and $15,000 USD.</p>
                   </div>
                   <div className="google-link" id="google-link3">
-                  <a href="https://codingcompetitions.withgoogle.com/codejam">Register</a>
-                  <p>Mar 2 , 2022</p>
+                    <a href="https://codingcompetitions.withgoogle.com/codejam">Register</a>
+                    <p>Mar 2 , 2022</p>
                   </div>
                 </div>
               </div>
@@ -278,12 +280,12 @@ class Dashboard extends React.Component {
         </div>
         {/* Hackathon */}
         <div className="hacker">
-        <div className="hacker-col">
-        <div className="hacker-head"><h1>Hackathon</h1></div>
-        <div className="hacker-head-para"><h5>Want to try?</h5></div>
-        <div className="row"></div>
-        </div>
-        
+          <div className="hacker-col">
+            <div className="hacker-head"><h1>Hackathon</h1></div>
+            <div className="hacker-head-para"><h5>Want to try?</h5></div>
+            <div className="row"></div>
+          </div>
+
         </div>
       </div>
     );

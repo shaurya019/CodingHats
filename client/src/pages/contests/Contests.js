@@ -15,8 +15,8 @@ function Contests() {
 
   return (
     <div className="contests">
-      <IconContext.Provider value={{size:"1.5em"}}>
-      <div className="contest-heading">Competitive Programming< FcBinoculars/></div>
+      <IconContext.Provider value={{ size: "1.5em" }}>
+        <div className="contest-heading">Competitive Programming< FcBinoculars /></div>
       </IconContext.Provider>
       <div className="contest-heading-2">Start With To Achieve Big!!</div>
       <hr />

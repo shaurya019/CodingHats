@@ -62,7 +62,8 @@ function Contest() {
       <div className="contest-heading">{contestName}</div>
       <div className="contest-sub-heading">Upcoming Contest</div>
       <div className="all-contests">
-        {!contests && <div>Loading...</div>}
+        {!contests && <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "100vh" }}>
+          <div className="water"></div></div>}
         {contests && contests.length == 0 && <div>No Contests </div>}
         {contests &&
           contests.map((element) => {
