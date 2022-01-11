@@ -339,7 +339,7 @@ class dsa extends React.Component {
               Algorithms
           </div>  
           <div className="Algo-text">
-          <div className="Algo-head-text" id="algo-head-1"><IconContext.Provider value={{size:"1em"}}>SERACH <FcFlashOn /></IconContext.Provider></div>
+          <div className="Algo-head-text" id="algo-head-1"><IconContext.Provider value={{size:"1em"}}>SEARCH <FcFlashOn /></IconContext.Provider></div>
           <div className="Algo-main" id="Algo-1"><a href="">Linear Search</a></div>
           <div className="Algo-main" id="Algo-2"><a href="">Binary Search</a></div>
           <div className="Algo-main" id="Algo-3"><a href="">DFS</a></div>

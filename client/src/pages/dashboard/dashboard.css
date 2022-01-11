@@ -202,6 +202,7 @@
 }
 .contest-img img {
   height: 150px;
+  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -260,4 +261,11 @@ margin-left: 25px;
   font-weight: 400;
   text-align: center;
   color: #FF0075;
+}
+.lm::after {
+  content: " ->";
+}
+a:hover{
+  color:#3c61e2;
+  font-weight: 600;
 }
