@@ -1,5 +1,6 @@
 import React from "react";
 import "./dashboard.css";
+import {AiFillFire } from "react-icons/ai";
 import { changeSelect } from "../../context/sidebarContext/SidebarAction";
 import Technews from "../../components/technews/Technews";
 
@@ -90,10 +91,10 @@ class Dashboard extends React.Component {
                       programming project under the guidance of mentors.
                     </p>
                     <div className="blog-box-main">
-                      <a href="https://www.geeksforgeeks.org/how-to-prepare-for-gsoc-google-summer-of-code/">
+                      <a className="lm" href="https://www.geeksforgeeks.org/how-to-prepare-for-gsoc-google-summer-of-code/">
                         Learn more
                       </a>
-                      <h5>HOT</h5>{" "}
+                      <h5>HOT<AiFillFire /></h5>
                     </div>
                   </p>
                   <p className="i-box" id="s-box">
@@ -105,10 +106,10 @@ class Dashboard extends React.Component {
                       about this project in almost every interview later.
                     </p>
                     <div className="blog-box-main">
-                      <a href="https://blog.producthunt.com/how-to-come-up-with-side-project-ideas-4a2c8049deba">
+                      <a className="lm"href="https://blog.producthunt.com/how-to-come-up-with-side-project-ideas-4a2c8049deba">
                         Learn more
                       </a>
-                      <h5>HOT</h5>{" "}
+                      <h5>HOT<AiFillFire /></h5>
                     </div>
                   </p>
                   <p className="i-box" id="t-box">
@@ -119,10 +120,10 @@ class Dashboard extends React.Component {
                       company to work on.
                     </p>
                     <div className="blog-box-main">
-                      <a href="https://blog.internshala.com/2019/04/how-to-get-an-internship-at-iit/">
+                      <a className="lm" href="https://blog.internshala.com/2019/04/how-to-get-an-internship-at-iit/">
                         Learn more
                       </a>
-                      <h5>HOT</h5>{" "}
+                      <h5>HOT<AiFillFire /></h5>
                     </div>
                   </p>
                 </div>
@@ -136,10 +137,10 @@ class Dashboard extends React.Component {
                       to collaborate on a project.
                     </p>
                     <div className="blog-box-main">
-                      <a href="https://www.youtube.com/watch?v=_d69HhC0Qu0">
+                      <a className="lm" href="https://www.youtube.com/watch?v=_d69HhC0Qu0">
                         Learn more
                       </a>
-                      <h5>HOT</h5>{" "}
+                      <h5>HOT<AiFillFire /></h5>
                     </div>
                   </p>
                   <p className="i-box" id="s-box">
@@ -153,10 +154,10 @@ class Dashboard extends React.Component {
                       growing as a developer are welcome.
                     </p>
                     <div className="blog-box-main">
-                      <a href="https://developers.google.com/community/gdsc">
+                      <a className="lm" href="https://developers.google.com/community/gdsc">
                         Learn more
                       </a>
-                      <h5>HOT</h5>{" "}
+                      <h5>HOT<AiFillFire /></h5>
                     </div>
                   </p>
                   <p className="i-box" id="t-box">
@@ -167,10 +168,10 @@ class Dashboard extends React.Component {
                       internship at an MNC. Instead you can do it at a startup.
                     </p>
                     <div className="blog-box-main">
-                      <a href="https://www.youtube.com/watch?v=wYYUf6eq96E">
+                      <a className="lm" href="https://www.youtube.com/watch?v=wYYUf6eq96E">
                         Learn more
                       </a>
-                      <h5>HOT</h5>{" "}
+                      <h5>HOT<AiFillFire /></h5>
                     </div>
                   </p>
                 </div>
@@ -183,10 +184,10 @@ class Dashboard extends React.Component {
                       your interviews.
                     </p>
                     <div className="blog-box-main">
-                      <a href="https://www.indeed.com/career-advice/interviewing/job-interview-tips-how-to-make-a-great-impression">
+                      <a className="lm" href="https://www.indeed.com/career-advice/interviewing/job-interview-tips-how-to-make-a-great-impression">
                         Learn more
                       </a>
-                      <h5>HOT</h5>{" "}
+                      <h5>HOT<AiFillFire /></h5>
                     </div>
                   </p>
                   <p className="i-box" id="s-box">
@@ -199,10 +200,10 @@ class Dashboard extends React.Component {
                       CP into a life career.
                     </p>
                     <div className="blog-box-main">
-                      <a href="https://www.geeksforgeeks.org/how-to-prepare-for-competitive-programming/">
+                      <a className="lm" href="https://www.geeksforgeeks.org/how-to-prepare-for-competitive-programming/">
                         Learn more
                       </a>
-                      <h5>HOT</h5>{" "}
+                      <h5>HOT<AiFillFire /></h5>
                     </div>
                   </p>
                   <p className="i-box" id="t-box">
@@ -212,10 +213,10 @@ class Dashboard extends React.Component {
                       formal way and impress them with your resume.
                     </p>
                     <div className="blog-box-main">
-                      <a href="https://www.youtube.com/watch?v=_EsJYf5-EAk">
+                      <a className="lm" href="https://www.youtube.com/watch?v=_EsJYf5-EAk">
                         Learn more
                       </a>
-                      <h5>HOT</h5>
+                      <h5>HOT<AiFillFire /></h5>
                     </div>
                   </p>
                 </div>

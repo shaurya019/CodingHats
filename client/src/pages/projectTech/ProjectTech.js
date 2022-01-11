@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9c48768a0debace024a6820cd55fb8f9e704902e
 import React from "react";
 import "./projectTech.css";
 import { IconContext } from "react-icons/lib";
@@ -25,6 +29,7 @@ function ProjectTech() {
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
     { width: 768, itemsToShow: 3 },
+<<<<<<< HEAD
     { width: 1200, itemsToShow: 4 }
   ]
 
@@ -176,6 +181,158 @@ function ProjectTech() {
       ],
     }
   }
+=======
+    { width: 1200, itemsToShow: 4 },
+  ];
+
+  // All projects data
+  // Add new technologies projects here
+  // const projects = {
+  //   basic : {
+  //     easy : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Javascript Image Slider" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/JavaScript%20Image%20Slider" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "BMI Calculator" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/BMI%20Calculator" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Colors Changing App" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Color%20Changing%20App" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Quote of Day Project" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Quote%20of%20Day%20Project" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     medium :  [
+  //       {id : 1 , title : "Music Player" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/music-player" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,53,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 2 , title : "Infinite Scrolling" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/typing-game" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,110,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 3 , title : "Movie Seat Booking" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking" ,  background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,0.7399334733893557) 60%, rgba(36,165,181,1) 76%, rgba(14,194,227,1) 91%, rgba(0,212,255,1) 100%)'},
+  //       {id : 4 , title : "Hangman Game" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/hangman" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Relaxer App" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/relaxer-app" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     hard : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //   },
+
+  //   react : {
+  //     easy : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Javascript Image Slider" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/JavaScript%20Image%20Slider" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "BMI Calculator" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/BMI%20Calculator" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Colors Changing App" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Color%20Changing%20App" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Quote of Day Project" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Quote%20of%20Day%20Project" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     medium :  [
+  //       {id : 1 , title : "Music Player" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/music-player" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,53,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 2 , title : "Infinite Scrolling" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/typing-game" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,110,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 3 , title : "Movie Seat Booking" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking" ,  background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,0.7399334733893557) 60%, rgba(36,165,181,1) 76%, rgba(14,194,227,1) 91%, rgba(0,212,255,1) 100%)'},
+  //       {id : 4 , title : "Hangman Game" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/hangman" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Relaxer App" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/relaxer-app" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     hard : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //   },
+
+  //   android : {
+  //     easy : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Javascript Image Slider" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/JavaScript%20Image%20Slider" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "BMI Calculator" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/BMI%20Calculator" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Colors Changing App" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Color%20Changing%20App" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Quote of Day Project" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Quote%20of%20Day%20Project" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     medium :  [
+  //       {id : 1 , title : "Music Player" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/music-player" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,53,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 2 , title : "Infinite Scrolling" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/typing-game" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,110,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 3 , title : "Movie Seat Booking" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking" ,  background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,0.7399334733893557) 60%, rgba(36,165,181,1) 76%, rgba(14,194,227,1) 91%, rgba(0,212,255,1) 100%)'},
+  //       {id : 4 , title : "Hangman Game" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/hangman" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Relaxer App" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/relaxer-app" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     hard : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //   },
+
+  //   python : {
+  //     easy : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Javascript Image Slider" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/JavaScript%20Image%20Slider" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "BMI Calculator" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/BMI%20Calculator" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Colors Changing App" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Color%20Changing%20App" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Quote of Day Project" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Quote%20of%20Day%20Project" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     medium :  [
+  //       {id : 1 , title : "Music Player" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/music-player" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,53,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 2 , title : "Infinite Scrolling" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/typing-game" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,110,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 3 , title : "Movie Seat Booking" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking" ,  background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,0.7399334733893557) 60%, rgba(36,165,181,1) 76%, rgba(14,194,227,1) 91%, rgba(0,212,255,1) 100%)'},
+  //       {id : 4 , title : "Hangman Game" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/hangman" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Relaxer App" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/relaxer-app" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     hard : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //   },
+
+  // ml : {
+  //     easy : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Javascript Image Slider" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/JavaScript%20Image%20Slider" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "BMI Calculator" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/BMI%20Calculator" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Colors Changing App" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Color%20Changing%20App" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Quote of Day Project" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Quote%20of%20Day%20Project" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     medium :  [
+  //       {id : 1 , title : "Music Player" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/music-player" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,53,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 2 , title : "Infinite Scrolling" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/typing-game" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,110,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 3 , title : "Movie Seat Booking" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking" ,  background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,0.7399334733893557) 60%, rgba(36,165,181,1) 76%, rgba(14,194,227,1) 91%, rgba(0,212,255,1) 100%)'},
+  //       {id : 4 , title : "Hangman Game" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/hangman" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Relaxer App" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/relaxer-app" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     hard : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //   },
+
+  //   javascript : {
+  //     easy : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Javascript Image Slider" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/JavaScript%20Image%20Slider" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "BMI Calculator" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/BMI%20Calculator" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Colors Changing App" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Color%20Changing%20App" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Quote of Day Project" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Quote%20of%20Day%20Project" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     medium :  [
+  //       {id : 1 , title : "Music Player" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/music-player" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,53,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 2 , title : "Infinite Scrolling" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/typing-game" ,background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,110,1) 60%, rgba(0,212,255,1) 100%)'},
+  //       {id : 3 , title : "Movie Seat Booking" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking" ,  background : 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,0.7399334733893557) 60%, rgba(36,165,181,1) 76%, rgba(14,194,227,1) 91%, rgba(0,212,255,1) 100%)'},
+  //       {id : 4 , title : "Hangman Game" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/hangman" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Relaxer App" , link : "https://github.com/bradtraversy/vanillawebprojects/tree/master/relaxer-app" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //     hard : [
+  //       {id : 1 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg, rgb(41,196,253) , rgb(60,182,255),rgb(45, 200, 247),rgb(112,242,255) 88%)'},
+  //       {id : 2 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,background : 'linear-gradient(-45deg,rgb(126,180,255), rgb(120,117,236),rgb(120, 124, 239),rgb(157,120,248))'},
+  //       {id : 3 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(-45deg, rgb(54,227,180) , rgb(52,225,141),rgb(59, 229, 178),rgb(114,251,166) 88%)'},
+  //       {id : 4 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" ,  background : 'linear-gradient(to bottom right, #000428 11%, #004e92 80%)'},
+  //       {id : 5 , title : "Analogue Clock" , link : "https://github.com/romeojeremiah/javascript-projects-for-beginners/tree/master/Analogue%20Clock" , background : 'linear-gradient(to bottom right, #7b4397 11%, #ff5050 95%)'}
+  //     ],
+  //   }
+  // }
+>>>>>>> 9c48768a0debace024a6820cd55fb8f9e704902e
 
   return (
     // <div>
@@ -226,11 +383,12 @@ function ProjectTech() {
           <h4>Cool Intresting Stuff!!</h4>
         </div>
       </div>
+      <div className="back-but"><a href="" className="link-but"> Projects</a></div>
       <hr></hr>
       <div className="row">
         <div className="Tech">
           <div className="tech-set" id="tech-easy">
-            <div className="T-head">
+            <div className="T-head" id="T-head-1">
               <h4>EASY PROJECTS</h4>
             </div>
             <div className="T-para">
@@ -241,10 +399,52 @@ function ProjectTech() {
               </p>
             </div>
             <div className="Card" id="">
+<<<<<<< HEAD
               <div className="Card-box" id="">
                 <div className="Card-data" id="">
                   <div className="Card-box-img" id=""><img alt="sorry"></img></div>
                   <div className="Card-box-data" id=""><p>Website</p></div>
+=======
+              <div className="Card-box" id="card-box-1">
+              <div className="Card-data" id="card-data-1">
+                <div className="Card-box-data" id=""><p>Website</p></div>
+                </div>
+                <div className="Card-link" id="">
+                <div className="Card-link-data" id="link-data-1"><a href="">Github<FaGithub /></a></div>
+                <div className="Card-link-data" id="link-data-2"><a href="">Website<SiWebauthn/></a></div>
+                </div>
+              </div>
+              <div className="Card-box" id="card-box-2">
+              <div className="Card-data" id="card-data-2">
+                <div className="Card-box-data" id=""><p>Website</p></div>
+                </div>
+                <div className="Card-link" id="">
+                <div className="Card-link-data" id="link-data-1"><a href="">Github<FaGithub /></a></div>
+                <div className="Card-link-data" id="link-data-2"><a href="">Website<SiWebauthn/></a></div>
+                </div>
+              </div>
+              <div className="Card-box" id="card-box-3">
+              <div className="Card-data" id="card-data-3">
+                <div className="Card-box-data" id=""><p>Website</p></div>
+                </div>
+                <div className="Card-link" id="">
+                <div className="Card-link-data" id="link-data-1"><a href="">Github<FaGithub /></a></div>
+                <div className="Card-link-data" id="link-data-2"><a href="">Website<SiWebauthn/></a></div>
+                </div>
+              </div>
+              <div className="Card-box" id="card-box-4">
+              <div className="Card-data" id="card-data-4">
+                <div className="Card-box-data" id=""><p>Website</p></div>
+                </div>
+                <div className="Card-link" id="">
+                <div className="Card-link-data" id="link-data-1"><a href="">Github<FaGithub /></a></div>
+                <div className="Card-link-data" id="link-data-2"><a href="">Website<SiWebauthn/></a></div>
+                </div>
+              </div>
+              <div className="Card-box" id="card-box-5">
+              <div className="Card-data" id="card-data-5">
+                <div className="Card-box-data" id=""><p>Website</p></div>
+>>>>>>> 9c48768a0debace024a6820cd55fb8f9e704902e
                 </div>
                 <div className="Card-link" id="">
                   <div className="Card-link-data" id="link-data-1"><a href="">Github<FaGithub /></a></div>
@@ -254,7 +454,7 @@ function ProjectTech() {
             </div>
           </div>
           <div className="tech-set" id="tech-med">
-            <div className="T-head">
+            <div className="T-head" id="T-head-2">
               <h4>MED PROJECTS</h4>
             </div>
             <div className="T-para">
@@ -269,7 +469,7 @@ function ProjectTech() {
             </div>
           </div>
           <div className="tech-set" id="tech-hard">
-            <div className="T-head">
+            <div className="T-head" id="T-head-3">
               <h4>HARD PROJECTS</h4>
             </div>
             <div className="T-para">
@@ -282,7 +482,11 @@ function ProjectTech() {
         </div>
       </div>
     </div>
+<<<<<<< HEAD
   )
+=======
+  );
+>>>>>>> 9c48768a0debace024a6820cd55fb8f9e704902e
 }
 
 export default ProjectTech;

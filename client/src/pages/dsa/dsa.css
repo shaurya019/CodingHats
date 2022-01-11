@@ -10,7 +10,7 @@
 .Dsa-head-text p{
   word-spacing: 20px;
   font-size: 18px;
-  color: #716F81;
+  color: #724CE5;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -178,8 +178,5 @@
   color:#ffff;
 }
 .Algo-main a:hover{
-  border: 2px solid #FF4C29;
-  border-radius: 30px;
-  padding: 5px;
-  background-color: #fff;
+  color: #FFF89A;
 }

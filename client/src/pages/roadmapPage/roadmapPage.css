@@ -2,6 +2,9 @@
 .Web-road{
 margin: 30px 0px;
 }
+.col{
+    margin: 0px 40px;
+}
 .Web-title{
     display: flex;
     flex-direction: column;
@@ -18,5 +21,53 @@ margin: 30px 0px;
 }
 #title-3{
     margin: 8px 0px 5px 0px;
+    color: grey;
     font-size: 15px; 
+}
+.web-roadmaps{
+margin-top: 50px ;
+}
+.front-end{
+margin: 20px 0px;
+}
+.front-end h3{
+  font-size: 20px;
+}
+.front-work{
+    margin: 15px;
+    padding-left: 90px;
+}
+.sec-data{
+ padding: 8px;
+}
+.sec-data h4{
+    font-size: 19px;
+    color: black;
+}
+#sec-data-15{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#sec-data-16{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.front-para{
+    width: 75%;
+    margin: 10px 0px 0px 25px;
+    color: #475569;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+.link-but::before{
+    content: "<-";
+}
+.link-but{
+    color: #3c61e2;
+    margin-left:23px;
+}
+.link-but:hover{
+    color: #610ea3;
 }
