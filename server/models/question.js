@@ -14,10 +14,6 @@ const questionSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    company: {
-      type: String,
-      required: true,
-    },
     difficulty: {
       type: String,
       required: true,

@@ -6,7 +6,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 function Datagrid(props) {
-  
+
   const columns = [
     // {
     //   field: "number",
@@ -16,24 +16,24 @@ function Datagrid(props) {
     {
       field: "title",
       headerName: "Title",
-      width: 350,
+      width: 400,
     },
-    {
-      field: "company",
-      headerName: "Company",
-      width: 350,
-      headerAlign: "center",
-      align: "center",
-    },
+    // {
+    //   field: "company",
+    //   headerName: "Company",
+    //   width: 350,
+    //   headerAlign: "center",
+    //   align: "center",
+    // },
     {
       field: "difficulty",
       headerName: "Difficulty",
-      width: 150,
+      width: 300,
     },
     {
       field: "solution",
       headerName: "Solution",
-      width: 150,
+      width: 300,
       renderCell: (params) => {
         return (
           <>
@@ -47,7 +47,7 @@ function Datagrid(props) {
     {
       field: "link",
       headerName: "Solve Here",
-      width: 150,
+      width: 300,
       renderCell: (params) => {
         return (
           <>
@@ -173,8 +173,8 @@ function Datagrid(props) {
           rows={props.list}
           disableSelectionOnClick
           columns={columns}
-          pageSize={6}
-          rowsPerPageOptions={[6]}
+          pageSize={10}
+          rowsPerPageOptions={[10]}
           // checkboxSelection
           getRowId={(r) => r._id}
         />
