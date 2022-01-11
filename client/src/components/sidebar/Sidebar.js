@@ -13,13 +13,13 @@ import { useContext } from "react";
 
 function Sidebar() {
   const { page, dispatch } = useContext(SidebarContext);
-  
+
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
         <div className="sidebarIcon">
           <img
-            src="https://cdn.iconscout.com/icon/free/png-256/hat-1594471-1348582.png"
+            src="././images/logo.jpeg"
             alt=""
           ></img>
         </div>
