@@ -51,14 +51,6 @@ class Dashboard extends React.Component {
               })}
           </div>
         </div>
-        {/* google */}
-        <div className="bag">
-          <div className="bags-container">
-            <div className="bags" id=""></div>
-            <div className="bags"></div>
-            <div className="bags"></div>
-          </div>
-        </div>
 
 
         {/* blogs */}

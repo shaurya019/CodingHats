@@ -1,6 +1,6 @@
-.Part-1 {
+/* .Part-1 {
   margin-bottom: 100px;
-}
+} */
 .question-main-head h2 {
   font-size: 50px;
   font-weight: 800;
@@ -34,30 +34,27 @@
 .question-head {
   border: 2px solid #ffff;
   box-shadow: 3px 3px 4px 3px #9d9d9d;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin:0px 20px 35px 20px;
 }
 
 .question-head h3 {
   font-size: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin:10px 20px;
   color: #6d8299;
 }
 /* .question-box{
 
 } */
 .question-box h1 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   margin-left: 20px;
   color:black;
 }
 .question-box p {
-  font-size: 20px;
+  font-size: 18px;
+  width: 88%;
   margin-bottom: 25px;
-  margin-left: 20px;
+  margin-left: 30px;
   color:black;
 }
 .question-sol {
