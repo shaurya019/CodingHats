@@ -340,37 +340,37 @@ class dsa extends React.Component {
           </div>  
           <div className="Algo-text">
           <div className="Algo-head-text" id="algo-head-1"><IconContext.Provider value={{size:"1em"}}>SEARCH <FcFlashOn /></IconContext.Provider></div>
-          <div className="Algo-main" id="Algo-1"><a href="">Linear Search</a></div>
-          <div className="Algo-main" id="Algo-2"><a href="">Binary Search</a></div>
-          <div className="Algo-main" id="Algo-3"><a href="">DFS</a></div>
-          <div className="Algo-main" id="Algo-4"><a href="">BFS</a></div>
+          <div className="Algo-main" id="Algo-1"><a href="https://www.geeksforgeeks.org/linear-search/">Linear Search</a></div>
+          <div className="Algo-main" id="Algo-2"><a href="https://www.geeksforgeeks.org/binary-search/">Binary Search</a></div>
+          <div className="Algo-main" id="Algo-3"><a href="https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/">DFS</a></div>
+          <div className="Algo-main" id="Algo-4"><a href="https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/">BFS</a></div>
           <div className="Algo-head-text" id="algo-head-2"><IconContext.Provider value={{size:"1em"}}>SORT<FcFlashOn /></IconContext.Provider></div>
-          <div className="Algo-main" id="Algo-5"><a href="">Selection Sort</a></div>
-          <div className="Algo-main" id="Algo-6"><a href="">Bubble Sort</a></div>
-          <div className="Algo-main" id="Algo-7"><a href="">Insertion Sort</a></div>
-          <div className="Algo-main" id="Algo-8"><a href="">Merge Sort</a></div>
-          <div className="Algo-main" id="Algo-9"><a href="">Heap Sort</a></div>   
-          <div className="Algo-main" id="Algo-10"><a href="">Quick Sort</a></div>
-          <div className="Algo-main" id="Algo-11"><a href="">Radix Sort</a></div>
-          <div className="Algo-main" id="Algo-12"><a href="">Counting Sort</a></div>
-          <div className="Algo-main" id="Algo-13"><a href="">Bucket Sort</a></div>
+          <div className="Algo-main" id="Algo-5"><a href="https://www.geeksforgeeks.org/selection-sort/">Selection Sort</a></div>
+          <div className="Algo-main" id="Algo-6"><a href="https://www.geeksforgeeks.org/bubble-sort/">Bubble Sort</a></div>
+          <div className="Algo-main" id="Algo-7"><a href="https://www.geeksforgeeks.org/insertion-sort/">Insertion Sort</a></div>
+          <div className="Algo-main" id="Algo-8"><a href="https://www.geeksforgeeks.org/merge-sort/">Merge Sort</a></div>
+          <div className="Algo-main" id="Algo-9"><a href="https://www.geeksforgeeks.org/heap-sort/">Heap Sort</a></div>   
+          <div className="Algo-main" id="Algo-10"><a href="https://www.geeksforgeeks.org/quick-sort/">Quick Sort</a></div>
+          <div className="Algo-main" id="Algo-11"><a href="https://www.geeksforgeeks.org/radix-sort/">Radix Sort</a></div>
+          <div className="Algo-main" id="Algo-12"><a href="https://www.geeksforgeeks.org/counting-sort/">Counting Sort</a></div>
+          <div className="Algo-main" id="Algo-13"><a href="https://www.geeksforgeeks.org/bucket-sort-2/">Bucket Sort</a></div>
           <div className="Algo-head-text" id="algo-head-3"><IconContext.Provider value={{size:"1em"}}>ARRAYS<FcFlashOn /></IconContext.Provider></div>
-          <div className="Algo-main" id="Algo-14"><a href="">Kadane's Algo</a></div>
-          <div className="Algo-main" id="Algo-15"><a href="">KMP Algo</a></div>
-          <div className="Algo-main" id="Algo-16"><a href="">Quick Select Algo</a></div>
-          <div className="Algo-main" id="Algo-17"><a href="">Boyer Algo</a></div>   
-          <div className="Algo-main" id="Algo-18"><a href="">Flyod's Algo</a></div>
+          <div className="Algo-main" id="Algo-14"><a href="https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/">Kadane's Algo</a></div>
+          <div className="Algo-main" id="Algo-15"><a href="https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/">KMP Algo</a></div>
+          <div className="Algo-main" id="Algo-16"><a href="https://www.geeksforgeeks.org/quickselect-algorithm/">Quick Select Algo</a></div>
+          <div className="Algo-main" id="Algo-17"><a href="https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/">Boyer Algo</a></div>   
+          <div className="Algo-main" id="Algo-18"><a href="https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/">Flyod's Algo</a></div>
           <div className="Algo-head-text" id="algo-head-4"><IconContext.Provider value={{size:"1em"}}>GRAPHS<FcFlashOn /></IconContext.Provider></div>
-          <div className="Algo-main" id="Algo-19"><a href="">Kruskal's Algo</a></div>
-          <div className="Algo-main" id="Algo-20"><a href="">Dijkstra's Algo</a></div>
-          <div className="Algo-main" id="Algo-21"><a href="">Bellman Ford Algo</a></div>
-          <div className="Algo-main" id="Algo-23"><a href="">Floyd Warshall Algo</a></div>
-          <div className="Algo-main" id="Algo-24"><a href="">Flood Fill Algo</a></div>
-          <div className="Algo-main" id="Algo-25"><a href="">Lee Algo</a></div>
+          <div className="Algo-main" id="Algo-19"><a href="https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/">Kruskal's Algo</a></div>
+          <div className="Algo-main" id="Algo-20"><a href="https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/">Dijkstra's Algo</a></div>
+          <div className="Algo-main" id="Algo-21"><a href="https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/">Bellman Ford Algo</a></div>
+          <div className="Algo-main" id="Algo-23"><a href="https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/">Floyd Warshall Algo</a></div>
+          <div className="Algo-main" id="Algo-24"><a href="https://www.geeksforgeeks.org/flood-fill-algorithm-implement-fill-paint/">Flood Fill Algo</a></div>
+          <div className="Algo-main" id="Algo-25"><a href="https://www.freecodecamp.org/news/lee-algorithm-maze-explained/">Lee Algo</a></div>
           <div className="Algo-head-text" id="algo-head-5"><IconContext.Provider value={{size:"1em"}}>BASIC<FcFlashOn /></IconContext.Provider></div>
-          <div className="Algo-main" id="Algo-26"><a href="">Huffman Coding Algo</a></div>
-          <div className="Algo-main" id="Algo-27"><a href="">Euclid's Algo</a></div>
-          <div className="Algo-main" id="Algo-28"><a href="">Union Find Algo</a></div>
+          <div className="Algo-main" id="Algo-26"><a href="https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/">Huffman Coding Algo</a></div>
+          <div className="Algo-main" id="Algo-27"><a href="https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/">Euclid's Algo</a></div>
+          <div className="Algo-main" id="Algo-28"><a href="https://www.geeksforgeeks.org/union-find/">Union Find Algo</a></div>
           </div> 
           </div>
           </div>

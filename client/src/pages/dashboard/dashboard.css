@@ -109,10 +109,19 @@
   width: 311px;
   margin: 15px 15px 20px 15px;
   color: #6d8299;
+  transition: transform 1s;
 }
+/* .i-box:hover{
+  background-color: #f7f8fb;
+} */
 .i-box h3 {
   color: rgb(138, 154, 181);
   margin: 5px 0px 5px 3px;
+  
+}
+.blog-box-main:hover .i-box{
+  background-color: #f7f8fb;
+  transform: translateX(15%);
 }
 .i-box p {
   margin: 20px 0px 20px 3px;

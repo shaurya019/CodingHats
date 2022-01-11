@@ -19,7 +19,7 @@ function Sidebar() {
       <div className="sidebarWrapper">
         <div className="sidebarIcon">
           <img
-            src="https://cdn.iconscout.com/icon/free/png-256/hat-1594471-1348582.png"
+            src="./images/logos.png"
             alt=""
           ></img>
         </div>
