@@ -71,3 +71,8 @@ a{
 .link-but:hover{
     color: #610ea3;
 }
+#contact-7{
+    border: white;
+    color: #fff;
+    background-image: linear-gradient(+45deg, #808694 , #2a0845);
+  }

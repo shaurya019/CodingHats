@@ -45,11 +45,13 @@
 }
 
 .contest-sub-heading{
+  color: #787a91;
   text-transform: uppercase;
   text-align: center;
-  text-decoration: underline;
-  margin-top:12px;
-  font-size: 25px;
+  text-decoration: none;
+  margin:12px 0px;
+  font-size: 18px;
+
   font-weight: bold;
 }
 .all-contests {

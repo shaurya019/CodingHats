@@ -180,3 +180,8 @@
 .Algo-main a:hover{
   color: #FFF89A;
 }
+#contact-4{
+  border: white;
+  color: #fff;
+  background-image: linear-gradient(+45deg, #0b8793 , #360033);
+}

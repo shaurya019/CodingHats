@@ -109,20 +109,19 @@
   width: 311px;
   margin: 15px 15px 20px 15px;
   color: #6d8299;
-  transition: transform 1s;
 }
-/* .i-box:hover{
+.i-box:hover{
   background-color: #f7f8fb;
-} */
+}
 .i-box h3 {
   color: rgb(138, 154, 181);
   margin: 5px 0px 5px 3px;
   
 }
-.blog-box-main:hover .i-box{
+/* .blog-box-main:hover .i-box{
   background-color: #f7f8fb;
   transform: translateX(15%);
-}
+} */
 .i-box p {
   margin: 20px 0px 20px 3px;
 }
@@ -162,9 +161,9 @@
 .col-challenge {
   margin-left: 25px;
 }
-.head-challenge {
+/* .head-challenge {
   
-}
+} */
 .head-challenge-1
 {
   font-size: 40px;
@@ -200,6 +199,9 @@
   height: 326px;
   width: 329px;
 }
+.google-challenge:hover{
+  background-color: #f7f8fb;
+}
 .google-challenge-content {
   display: flex;
   flex-direction: column;
@@ -233,8 +235,8 @@
   color: #ffff;
   text-decoration: none;
 }
-.google-para {
-}
+/* .google-para {
+} */
 .google-para h3 {
   margin: 25px 0px 0px 10px;
   color: #22577E;
@@ -277,4 +279,41 @@ margin-left: 25px;
 a:hover{
   color:#3c61e2;
   font-weight: 600;
+}
+.contact{
+  margin: 25px 0px;
+}
+.contact-col{
+  padding-top: 25px;
+}
+.contact-box{
+  margin: auto;
+ border:2px solid #ffff;
+ border-radius: 15px;
+ height: 100px;
+ width: 78%;
+
+}
+#contact-1{
+  color: #fff;
+  background-image: linear-gradient(+45deg, #6441A5 , #2a0845);
+}
+.contact-us{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact-text{
+  font-size: 25px;
+  margin: 35px 0px 10px 0px;
+  /* margin: auto auto; */
+}
+.contact-mail{
+  border: 2px solid #fff;
+  margin: 25px 25px 10px 0px;
+}
+.contact-mail p{
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
 }
