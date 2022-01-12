@@ -88,6 +88,7 @@ p {
   width: 400px;
   margin-left: 30px;
   margin-top: 30px;
+  color: black;
 }
 .Intern {
   margin-bottom: 60px;
@@ -110,7 +111,7 @@ p {
   margin-left: 30px;
   margin-top: 30px;
 }
-.frame-box h3{
+.frame-box h3 {
   color: #fff;
   font-size: 25px;
 }
@@ -119,10 +120,10 @@ p {
 }
 .frame-main-head h2 {
   width: 200px;
-  background-color: #1C6DD0;
+  background-color: #1c6dd0;
   color: white;
-  border-right: 2px solid #1C6DD0;
-  border-bottom: 2px solid #1C6DD0;
+  border-right: 2px solid #1c6dd0;
+  border-bottom: 2px solid #1c6dd0;
   box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
   padding: 10px;
   text-align: center;
@@ -147,8 +148,8 @@ p {
   margin: 30px auto;
   /* margin-left: 20px; */
 }
-#contact-6{
+#contact-6 {
   border: white;
   color: #fff;
-  background-image: linear-gradient(+45deg, #6441A5 , #2a0845);
+  background-image: linear-gradient(+45deg, #6441a5, #2a0845);
 }

@@ -70,9 +70,15 @@ function RoadmapPage() {
     "ml": {
 
     },
-    "backEnd" :{
+    "backEnd": {
 
     },
+    "intern": {
+
+    },
+    "react": {
+
+    }
 
   }
 
@@ -112,21 +118,21 @@ function RoadmapPage() {
         </div>
       </div>
       <div className="contact">
-          <div className="contact-col">
+        <div className="contact-col">
           <div className="row">
-          <div className="contact-box" id="contact-7">
-          <div className="contact-us">
-          <div className="contact-text">
-            <h3>Contact Us</h3>
+            <div className="contact-box" id="contact-7">
+              <div className="contact-us">
+                <div className="contact-text">
+                  <h3>Contact Us</h3>
+                </div>
+                <div className="contact-mail">
+                  <p>codingHats23@gmail.com</p>
+                </div>
+              </div>
             </div>
-            <div className="contact-mail">
-            <p>codingHats23@gmail.com</p>
-          </div> 
-          </div>
-          </div>
-          </div>
           </div>
         </div>
+      </div>
     </div>
   );
 }
