@@ -62,16 +62,46 @@ function RoadmapPage() {
       ["🎯REST API Project", "Learn and try API calls, how these fetch.", "https://www.youtube.com/watch?v=l8WPWK9mS5M"]]
     },
     "android": {
-      "How things work on internet!": [["🎯Intro to internet! ", "how does the web work? Let's have a look at a high-level overview.", "https://www.youtube.com/watch?v=Dxcc6ycZ73M"],
-      ["🎯What is http? ", "Deep study of web.", "https://www.youtube.com/watch?v=eesqK59rhGA"],
-      ["🎯What is hosting? ", "Way publish your website files onto the internet.", "https://www.youtube.com/watch?v=A_BKChujwTc"],
-      ["🎯Intro to domain ", "Domain names serve to identify Internet resources", "https://www.youtube.com/watch?v=ut_oLhMhJsY"]],
+      "How it Started!": [["🎯Intro to Android! ", "how does the Android start?", "https://www.youtube.com/watch?v=U8PNOIdBL9M"],
+      ["🎯Things Needed? ", "Android studio is must for development ", "https://www.youtube.com/watch?v=0zx_eFyHRU0"],
+      ["🎯Publish Apps ", "Way to Reach the Audience and make money!!", "https://www.youtube.com/watch?v=EhjlZwBMu3w"],
+      ["🎯Language Required", "It's up to you which language you prefer to start JAVA or KOTLIN ", "https://www.youtube.com/watch?v=9wWgw9smBJs"]],
+
+      "Learn JAVA": [["🎯Learn basics ", "Start from the basics and learn to make good stuff!!.", "https://www.youtube.com/watch?v=UmnCZ7-9yDY"],
+      ["🎯Getting Deeper ", "Take a slide to java more to improve the skills.", "https://www.youtube.com/watch?v=Ae-r8hsbPUo"],
+      ["🎯Java Frameworks", "Explore some Frameworks like spring , spring boot , spark an dmany more.", "https://www.youtube.com/watch?v=rzA7UJ-hQn4"],
+      ],
+
+      "Learn KOTLIN": [["🎯Learn basics ", "Start from the basics and learn to make good stuff!!.", "https://www.youtube.com/watch?v=F9UC9DY-vIU"],
+      ["🎯Getting Deeper ", "Take a slide to Kotlin more to improve the skills.", "https://www.youtube.com/watch?v=uzjp5F22Igs"],
+      ["🎯Units Testing", " ", "https://www.youtube.com/watch?v=Oa31C5MgWL4"]
+      ],
+
     },
     "ml": {
 
     },
     "backEnd": {
-
+      "Revise Front-End!": [["🎯Khan academy  ", " ", "https://www.khanacademy.org/computing/computer-programming/html-css"],
+      ["🎯Freecodecamp web design ", " ", "https://www.freecodecamp.org/learn/responsive-web-design/"],
+      ["🎯HTML, CSS from scratch", " ", "https://www.youtube.com/watch?v=mU6anWqZJcc"],
+      ],
+      "Create simple projects here!": [
+        ["🎯Portfolio ", " ", "https://github.com/HarshKapadia2/web-dev"],
+        ["🎯Codemet23", " ", "https://codemet23.netlify.app"],
+      ],
+      "Node JS": [
+        ["🎯Node js Documentation ", " ", "https://nodejs.dev/learn"],
+        ["🎯Crash Course", " ", "https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU"],
+        ["🎯User auth, roles in Node js", " ", "https://www.youtube.com/watch?v=jI4K7L-LI58"],
+      ],
+      "Databases": [
+        ["🎯SQL vs No SQL ", " ", "https://www.youtube.com/watch?v=ruz-vK8IesE"],
+        ["🎯SQL ", " ", "https://www.youtube.com/watch?v=HXV3zeQKqGY"],
+        ["🎯Postgres SQL", " ", "https://www.postgresqltutorial.com/"],
+        ["🎯Mongo db", " ", "https://www.youtube.com/watch?v=-56x56UppqQ"],
+        ["🎯FireBase", "", "https://www.youtube.com/watch?v=PKwu15ldZ7k"]
+      ],
     },
     "intern": {
 
