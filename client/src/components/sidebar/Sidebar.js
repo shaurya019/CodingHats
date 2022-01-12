@@ -10,6 +10,7 @@ import {
 import { Link } from "react-router-dom";
 import { SidebarContext } from "../../context/sidebarContext/SidebarContext";
 import { useContext } from "react";
+import logo from '../images/logo.jpeg';
 
 function Sidebar() {
   const { page, dispatch } = useContext(SidebarContext);
@@ -19,9 +20,10 @@ function Sidebar() {
       <div className="sidebarWrapper">
         <div className="sidebarIcon">
           <img
-            src="././images/logo.jpeg"
+            src={logo}
             alt=""
           ></img>
+
         </div>
         <div className="sidebarMenu">
           <h4>CODING HATS</h4>

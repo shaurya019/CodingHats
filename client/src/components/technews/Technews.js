@@ -6,7 +6,7 @@ function Technews(props) {
     <div className="technewsContainer" style={{ backgroundColor: props.color }}>
       <div
         className="technewsContainerbg"
-        // style={{ backgroundImage: `url(${props.urlToImage})` }}
+      // style={{ backgroundImage: `url(${props.urlToImage})` }}
       ></div>
       <div className="technewstitle">
         <a href={props.url} target="_blank">
@@ -16,7 +16,7 @@ function Technews(props) {
       <div className="technewsimage">
         <img src={props.urlToImage} alt=""></img>
       </div>
-      <div className="technewsdesc">{props.description}</div>
+      {/* <div className="technewsdesc">{props.description}</div> */}
     </div>
   );
 }
