@@ -62,11 +62,17 @@ function RoadmapPage() {
       ["🎯REST API Project", "Learn and try API calls, how these fetch.", "https://www.youtube.com/watch?v=l8WPWK9mS5M"]]
     },
     "android": {
-
+      "How things work on internet!": [["🎯Intro to internet! ", "how does the web work? Let's have a look at a high-level overview.", "https://www.youtube.com/watch?v=Dxcc6ycZ73M"],
+      ["🎯What is http? ", "Deep study of web.", "https://www.youtube.com/watch?v=eesqK59rhGA"],
+      ["🎯What is hosting? ", "Way publish your website files onto the internet.", "https://www.youtube.com/watch?v=A_BKChujwTc"],
+      ["🎯Intro to domain ", "Domain names serve to identify Internet resources", "https://www.youtube.com/watch?v=ut_oLhMhJsY"]],
     },
     "ml": {
 
-    }
+    },
+    "backEnd" :{
+
+    },
 
   }
 
@@ -105,6 +111,22 @@ function RoadmapPage() {
           </div>
         </div>
       </div>
+      <div className="contact">
+          <div className="contact-col">
+          <div className="row">
+          <div className="contact-box" id="contact-7">
+          <div className="contact-us">
+          <div className="contact-text">
+            <h3>Contact Us</h3>
+            </div>
+            <div className="contact-mail">
+            <p>codingHats23@gmail.com</p>
+          </div> 
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
     </div>
   );
 }

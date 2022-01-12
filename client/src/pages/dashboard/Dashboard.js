@@ -272,13 +272,29 @@ class Dashboard extends React.Component {
           </div>
         </div>
         {/* Hackathon */}
-        <div className="hacker">
+        {/* <div className="hacker">
           <div className="hacker-col">
             <div className="hacker-head"><h1>Hackathon</h1></div>
             <div className="hacker-head-para"><h5>Want to try?</h5></div>
             <div className="row"></div>
           </div>
+        </div> */}
 
+        <div className="contact">
+          <div className="contact-col">
+          <div className="row">
+          <div className="contact-box" id="contact-1">
+          <div className="contact-us">
+          <div className="contact-text">
+            <h3>Contact Us</h3>
+            </div>
+            <div className="contact-mail">
+            <p>codingHats23@gmail.com</p>
+          </div> 
+          </div>
+          </div>
+          </div>
+          </div>
         </div>
       </div>
     );

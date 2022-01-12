@@ -59,8 +59,9 @@ function Contest() {
 
   return (
     <div className="contests">
-      <div className="contest-heading">{contestName}</div>
+      <div className="contest-heading">{contestName}🚀</div>
       <div className="contest-sub-heading">Upcoming Contest</div>
+      <hr></hr>
       <div className="all-contests">
         {!contests && <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "100vh" }}>
           <div className="water"></div></div>}
